@@ -4,7 +4,7 @@ description: This is a repository of accounts APIs, self-contained as a Github r
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/accounts.png
 created: "2018-02-24"
-modified: "2018-06-17"
+modified: "2018-06-25"
 url: http://accounts.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -40,6 +40,10 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-logic-apps/apis.yaml
 - name: Azure Storage
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-storage/apis.yaml
+- name: Instagram
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/instagram/apis.yaml
+- name: Dyn
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/apis.yaml
 - name: Capital One DevExchange
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/capital-one-devexchange/apis.yaml
 - name: First Trust Bank
@@ -76,10 +80,6 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/royal-bank-of-scotland/apis.yaml
 - name: HSBC
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hsbc/apis.yaml
-- name: Instagram
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/instagram/apis.yaml
-- name: Dyn
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/apis.yaml
 - name: GoToMeeting
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/apis.yaml
 - name: GoToMeeting
