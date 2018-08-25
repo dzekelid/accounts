@@ -10,33 +10,37 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bank-of-ireland/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Bank of Ireland Get Personal Current Accounts
+- name: Bank of Ireland
   x-api-slug: bank-of-ireland
-  description: This endpoint can contain multiple brands owned by a particular banking
-    group. Each brand can own multiple PCA products.
+  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapis-io-apis-for-the-bank-of-ireland-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bank-of-ireland.jpg
   humanURL: https://www.bankofireland.com/
-  baseURL: https://openapi.bankofireland.com/open-banking/v2.1//personal-current-accounts/
-  tags: Personal, Current, Accounts
+  baseURL: https://openapi.bankofireland.com/open-banking/v2.1/
+  tags: UK Banks, ATMs, API Provider, UK Banks, Profiles, General Data, Relative Data,
+    Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bank-of-ireland/personalcurrentaccounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bank-of-ireland/personalcurrentaccounts-get-openapi.md
-- name: Bank of Ireland Get Business Current Accounts
+- name: Bank of Ireland
   x-api-slug: bank-of-ireland
-  description: This endpoint can contain multiple brands owned by a particular banking
-    group. Each brand can own multiple BCA products.
+  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapis-io-apis-for-the-bank-of-ireland-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bank-of-ireland.jpg
   humanURL: https://www.bankofireland.com/
-  baseURL: https://openapi.bankofireland.com/open-banking/v2.1//business-current-accounts/
-  tags: Business, Current, Accounts
+  baseURL: https://openapi.bankofireland.com/open-banking/v2.1/
+  tags: UK Banks, ATMs, API Provider, UK Banks, Profiles, General Data, Relative Data,
+    Banking
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bank-of-ireland/personalcurrentaccounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bank-of-ireland/personalcurrentaccounts-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bank-of-ireland/businesscurrentaccounts-get-postman.md
   - type: x-openapi-spec
@@ -56,6 +60,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bank-of-ireland/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://bandsintown.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://bank.of.ireland.stack.network
 - type: x-developer
   url: http://openbankingapis.io/ireland/bank-of-ireland
 - type: x-documentation

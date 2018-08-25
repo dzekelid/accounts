@@ -37,4 +37,33 @@ paths:
           description: OK
       tags:
       - Accounts
+  /my/account:
+    get:
+      summary: Get My Account
+      description: Get account details
+      operationId: getMyAccount
+      x-api-path-slug: myaccount-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - My
+      - Account
+    put:
+      summary: Put My Account
+      description: Update account details
+      operationId: putMyAccount
+      x-api-path-slug: myaccount-put
+      parameters:
+      - in: body
+        name: body
+        description: the content of the request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - My
+      - Account
 ---

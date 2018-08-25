@@ -23,9 +23,9 @@ paths:
   /cib/service/s2b/api/v1/banks/scb/accounts/{accountId}/{viewId}/account:
     get:
       summary: Accounts
-      description: "The \u201CGetAccountBalance\u201D API upon successful user authentication
-        and entitlement checks will return the various types of \u201CAccount Balances\u201D
-        applicable for the specified Account Number."
+      description: The ???GetAccountBalance??? API upon successful user authentication
+        and entitlement checks will return the various types of ???Account Balances???
+        applicable for the specified Account Number.
       operationId: getCibServiceS2bApiV1BanksScbAccountsAccountViewAccount
       x-api-path-slug: cibservices2bapiv1banksscbaccountsaccountidviewidaccount-get
       parameters:
@@ -41,6 +41,8 @@ paths:
         200:
           description: OK
       tags:
+      - Banks
+      - Banking
       - Cib
       - Service
       - S2b
@@ -55,9 +57,9 @@ paths:
   /cib/service/s2b/api/v1/banks/scb/accounts/{accountId}/{viewId}/transaction-request-types:
     get:
       summary: Finds all support transaction types for a given account
-      description: "The \u201CGetTransactionTypes\u201D API upon successful user authentication
+      description: The ???GetTransactionTypes??? API upon successful user authentication
         and entitlement checks will return the supported transaction types for the
-        specified account"
+        specified account
       operationId: getCibServiceS2bApiV1BanksScbAccountsAccountViewTransactionRequestTypes
       x-api-path-slug: cibservices2bapiv1banksscbaccountsaccountidviewidtransactionrequesttypes-get
       parameters:
@@ -73,6 +75,8 @@ paths:
         200:
           description: OK
       tags:
+      - Banks
+      - Banking
       - Cib
       - Service
       - S2b
@@ -103,6 +107,8 @@ paths:
         200:
           description: OK
       tags:
+      - Banks
+      - Banking
       - Cib
       - Service
       - S2b

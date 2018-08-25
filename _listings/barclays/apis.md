@@ -12,33 +12,37 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "77947"
 tags: Accounts
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/barclays/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Barclays Get Current Personal Accounts
+- name: Barclays
   x-api-slug: barclays
-  description: This endpoint can contain multiple brands owned by a particular banking
-    group. Each brand can own multiple PCA products.
+  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapis-io-apis-for-barclays-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/barclays-logo.png
   humanURL: https://barclays.com
-  baseURL: https://atlas.api.barclays/open-banking/v2.1//personal-current-accounts/
-  tags: Personal, Current, Accounts
+  baseURL: https://atlas.api.barclays/open-banking/v2.1/
+  tags: Financial Services, Finance, UK Banks, API Provider, Profiles, Relative Data,
+    General Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/barclays/personalcurrentaccounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/barclays/personalcurrentaccounts-get-openapi.md
-- name: Barclays Get Current Business Accounts
+- name: Barclays
   x-api-slug: barclays
-  description: This endpoint can contain multiple brands owned by a particular banking
-    group. Each brand can own multiple BCA products.
+  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapis-io-apis-for-barclays-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/barclays-logo.png
   humanURL: https://barclays.com
-  baseURL: https://atlas.api.barclays/open-banking/v2.1//business-current-accounts/
-  tags: Business, Current, Accounts
+  baseURL: https://atlas.api.barclays/open-banking/v2.1/
+  tags: Financial Services, Finance, UK Banks, API Provider, Profiles, Relative Data,
+    General Data, Banking
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/barclays/personalcurrentaccounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/barclays/personalcurrentaccounts-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/barclays/businesscurrentaccounts-get-postman.md
   - type: x-openapi-spec
@@ -60,6 +64,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/barclays/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://barchart.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://barclays.stack.network
 - type: x-authentication
   url: https://developer.barclays.com/documentation/36324e85-05dc-4ffd-9301-0d0cf161e382.bdn/api#authentication
 - type: x-code

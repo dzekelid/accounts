@@ -15,33 +15,37 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "8074"
 tags: Accounts
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hsbc/apis.md
 specificationVersion: "0.14"
 apis:
-- name: HSBC Get Current Personal Accounts
+- name: HSBC
   x-api-slug: hsbc
-  description: This endpoint can contain multiple brands owned by a particular banking
-    group. Each brand can own multiple PCA products.
+  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapis-io-apis-for-hsbc-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HSBC-Logo.png
   humanURL: https://hsbc.com
-  baseURL: https://api.hsbc.com/open-banking/v2.1//personal-current-accounts/
-  tags: Personal, Current, Accounts
+  baseURL: https://api.hsbc.com/open-banking/v2.1/
+  tags: Financial Services, UK Banks, ATMs, API Provider, Profiles, General Data,
+    Relative Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hsbc/personalcurrentaccounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hsbc/personalcurrentaccounts-get-openapi.md
-- name: HSBC Get Current Business Accounts
+- name: HSBC
   x-api-slug: hsbc
-  description: This endpoint can contain multiple brands owned by a particular banking
-    group. Each brand can own multiple BCA products.
+  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapis-io-apis-for-hsbc-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HSBC-Logo.png
   humanURL: https://hsbc.com
-  baseURL: https://api.hsbc.com/open-banking/v2.1//business-current-accounts/
-  tags: Business, Current, Accounts
+  baseURL: https://api.hsbc.com/open-banking/v2.1/
+  tags: Financial Services, UK Banks, ATMs, API Provider, Profiles, General Data,
+    Relative Data, Banking
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hsbc/personalcurrentaccounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hsbc/personalcurrentaccounts-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hsbc/businesscurrentaccounts-get-postman.md
   - type: x-openapi-spec
@@ -66,6 +70,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hsbc/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://hitbtc.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://hsbc.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/hsbc
 - type: x-twitter

@@ -12,33 +12,35 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28128-www-
 x-kinRank: "8"
 x-alexaRank: "11016"
 tags: Accounts
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/santander-bank/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Santander Bank Get Current Personal Accounts
+- name: Santander Bank
   x-api-slug: santander-bank
-  description: This endpoint can contain multiple brands owned by a particular banking
-    group. Each brand can own multiple PCA products.
+  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapis-io-apis-for-santander-bank-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28128-www-santanderbank-com.jpg
   humanURL: https://www.santanderbank.com
-  baseURL: https://openapi.santander.co.uk/open-banking/v2.1//personal-current-accounts/
-  tags: Current, Personal, Accounts
+  baseURL: https://openapi.santander.co.uk/open-banking/v2.1/
+  tags: UK Banks, ATMs, General Data, Relative Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/santander-bank/personalcurrentaccounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/santander-bank/personalcurrentaccounts-get-openapi.md
-- name: Santander Bank Get Current Business Accounts
+- name: Santander Bank
   x-api-slug: santander-bank
-  description: This endpoint can contain multiple brands owned by a particular banking
-    group. Each brand can own multiple BCA products.
+  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapis-io-apis-for-santander-bank-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28128-www-santanderbank-com.jpg
   humanURL: https://www.santanderbank.com
-  baseURL: https://openapi.santander.co.uk/open-banking/v2.1//business-current-accounts/
-  tags: Current, Business, Accounts
+  baseURL: https://openapi.santander.co.uk/open-banking/v2.1/
+  tags: UK Banks, ATMs, General Data, Relative Data, Banking
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/santander-bank/personalcurrentaccounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/santander-bank/personalcurrentaccounts-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/santander-bank/businesscurrentaccounts-get-postman.md
   - type: x-openapi-spec
@@ -60,6 +62,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/santander-bank/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://salesloft.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://santander.bank.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/santander-bank-2
 - type: x-developer

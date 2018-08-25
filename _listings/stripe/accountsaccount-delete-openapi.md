@@ -577,8 +577,8 @@ paths:
   /accounts:
     get:
       summary: Get Accounts
-      description: "Returns a list of accounts connected to your platform via Connect.
-        If you\u2019re not a platform, the list is empty."
+      description: Returns a list of accounts connected to your platform via Connect.
+        If you???re not a platform, the list is empty.
       operationId: getAccounts
       x-api-path-slug: accounts-get
       parameters:
@@ -760,6 +760,1589 @@ paths:
       tags:
       - Accounts
       - Account
+    get:
+      summary: Get Accounts Account
+      description: Retrieves the details of the account.
+      operationId: getAccountsAccount
+      x-api-path-slug: accountsaccount-get
+      parameters:
+      - in: path
+        name: account
+        description: The identifier of the account to retrieve
+      - in: query
+        name: expand
+        description: Specifies which fields in the response should be expanded
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Accounts
+      - Account
+    post:
+      summary: Add Accounts Account
+      description: Updates a connected Express or Custom account by setting the values
+        of the parameters passed. Any parameters not provided are left unchanged.
+        To update your own account, use the Dashboard.Refer to our Connect documentation
+        to learn more about updating accounts.
+      operationId: postAccountsAccount
+      x-api-path-slug: accountsaccount-post
+      parameters:
+      - in: path
+        name: account
+      - in: body
+        name: payload
+        description: Body parameters for the request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Accounts
+      - Account
+  /accounts/{account}/bank_accounts:
+    post:
+      summary: Add Accounts Account Bank Accounts
+      description: Post Accounts, Account, Bank, Accounts
+      operationId: postAccountsAccountBankAccounts
+      x-api-path-slug: accountsaccountbank-accounts-post
+      parameters:
+      - in: path
+        name: account
+      - in: body
+        name: payload
+        description: Body parameters for the request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Accounts
+      - Account
+      - Bank
+      - Accounts
+  /accounts/{account}/bank_accounts/{id}:
+    delete:
+      summary: Delete Accounts Account Bank Accounts
+      description: Delete Accounts, Account, Bank, Accounts
+      operationId: deleteAccountsAccountBankAccounts
+      x-api-path-slug: accountsaccountbank-accountsid-delete
+      parameters:
+      - in: path
+        name: account
+      - in: path
+        name: id
+        description: The ID of the external account to be deleted
+      - in: body
+        name: payload
+        description: Body parameters for the request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Accounts
+      - Account
+      - Bank
+      - Accounts
+    get:
+      summary: Get Accounts Account Bank Accounts
+      description: Get Accounts, Account, Bank, Accounts
+      operationId: getAccountsAccountBankAccounts
+      x-api-path-slug: accountsaccountbank-accountsid-get
+      parameters:
+      - in: path
+        name: account
+      - in: query
+        name: expand
+        description: Specifies which fields in the response should be expanded
+      - in: path
+        name: id
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Accounts
+      - Account
+      - Bank
+      - Accounts
+    post:
+      summary: Add Accounts Account Bank Accounts
+      description: Updates the metadata of a bank account belonging to a Custom account,
+        and optionally sets it as the default for its currency. Other bank account
+        details are not editable by design.You can re-enable a disabled bank account
+        by performing an update call without providing any arguments or changes.
+      operationId: postAccountsAccountBankAccounts
+      x-api-path-slug: accountsaccountbank-accountsid-post
+      parameters:
+      - in: path
+        name: account
+      - in: path
+        name: id
+        description: The ID of the bank account to update
+      - in: body
+        name: payload
+        description: Body parameters for the request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Accounts
+      - Account
+      - Bank
+      - Accounts
+  /accounts/{account}/external_accounts:
+    get:
+      summary: Get Accounts Account External Accounts
+      description: Get Accounts, Account, External, Accounts
+      operationId: getAccountsAccountExternalAccounts
+      x-api-path-slug: accountsaccountexternal-accounts-get
+      parameters:
+      - in: path
+        name: account
+      - in: query
+        name: ending_before
+        description: A cursor for use in pagination
+      - in: query
+        name: expand
+        description: Specifies which fields in the response should be expanded
+      - in: query
+        name: limit
+        description: A limit on the number of objects to be returned
+      - in: query
+        name: starting_after
+        description: A cursor for use in pagination
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Accounts
+      - Account
+      - External
+      - Accounts
+    post:
+      summary: Add Accounts Account External Accounts
+      description: Post Accounts, Account, External, Accounts
+      operationId: postAccountsAccountExternalAccounts
+      x-api-path-slug: accountsaccountexternal-accounts-post
+      parameters:
+      - in: path
+        name: account
+      - in: body
+        name: payload
+        description: Body parameters for the request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Accounts
+      - Account
+      - External
+      - Accounts
+  /accounts/{account}/external_accounts/{id}:
+    delete:
+      summary: Delete Accounts Account External Accounts
+      description: Delete Accounts, Account, External, Accounts
+      operationId: deleteAccountsAccountExternalAccounts
+      x-api-path-slug: accountsaccountexternal-accountsid-delete
+      parameters:
+      - in: path
+        name: account
+      - in: path
+        name: id
+        description: The ID of the external account to be deleted
+      - in: body
+        name: payload
+        description: Body parameters for the request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Accounts
+      - Account
+      - External
+      - Accounts
+    get:
+      summary: Get Accounts Account External Accounts
+      description: Get Accounts, Account, External, Accounts
+      operationId: getAccountsAccountExternalAccounts
+      x-api-path-slug: accountsaccountexternal-accountsid-get
+      parameters:
+      - in: path
+        name: account
+      - in: query
+        name: expand
+        description: Specifies which fields in the response should be expanded
+      - in: path
+        name: id
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Accounts
+      - Account
+      - External
+      - Accounts
+    post:
+      summary: Add Accounts Account External Accounts
+      description: Updates the metadata of a bank account belonging to a Custom account,
+        and optionally sets it as the default for its currency. Other bank account
+        details are not editable by design.You can re-enable a disabled bank account
+        by performing an update call without providing any arguments or changes.
+      operationId: postAccountsAccountExternalAccounts
+      x-api-path-slug: accountsaccountexternal-accountsid-post
+      parameters:
+      - in: path
+        name: account
+      - in: path
+        name: id
+        description: The ID of the bank account to update
+      - in: body
+        name: payload
+        description: Body parameters for the request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Accounts
+      - Account
+      - External
+      - Accounts
+  /accounts/{account}/login_links:
+    post:
+      summary: Add Accounts Account Login Links
+      description: Creates a single-use login link for an Express account to access
+        their Stripe dashboard.You may only create login links for Express accounts
+        connected to your platform.
+      operationId: postAccountsAccountLoginLinks
+      x-api-path-slug: accountsaccountlogin-links-post
+      parameters:
+      - in: path
+        name: account
+        description: The identifier of the account to create a login link for
+      - in: body
+        name: payload
+        description: Body parameters for the request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Accounts
+      - Account
+      - Login
+      - Links
+  /accounts/{account}/logout:
+    put:
+      summary: Put Accounts Account Logout
+      description: Invalidates all sessions for a light account, for a platform to
+        use during platform logout.You may only log out Express accounts connected
+        to your platform.
+      operationId: putAccountsAccountLogout
+      x-api-path-slug: accountsaccountlogout-put
+      parameters:
+      - in: path
+        name: account
+        description: The identifier of the account to log out
+      - in: body
+        name: payload
+        description: Body parameters for the request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Accounts
+      - Account
+      - Logout
+  /accounts/{account}/reject:
+    post:
+      summary: Add Accounts Account Reject
+      description: With Connect, you may flag accounts as suspicious.Test-mode Custom
+        and Express accounts can be rejected at any time. Accounts created using live-mode
+        keys may only be rejected once all balances are zero.
+      operationId: postAccountsAccountReject
+      x-api-path-slug: accountsaccountreject-post
+      parameters:
+      - in: path
+        name: account
+        description: The identifier of the account to reject
+      - in: body
+        name: payload
+        description: Body parameters for the request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Accounts
+      - Account
+      - Reject
+  /customers/{customer}/bank_accounts:
+    get:
+      summary: Get Customers Customer Bank Accounts
+      description: You can see a list of the bank accounts belonging to a Customer.
+        Note that the 10 most recent sources are always available by default on the
+        Customer. If you need more than those 10, you can use this API method and
+        the limit and starting_after parameters to page through additional bank accounts.
+      operationId: getCustomersCustomerBankAccounts
+      x-api-path-slug: customerscustomerbank-accounts-get
+      parameters:
+      - in: path
+        name: customer
+        description: The ID of the customer whose bank accounts will be retrieved
+      - in: query
+        name: ending_before
+        description: A cursor for use in pagination
+      - in: query
+        name: expand
+        description: Specifies which fields in the response should be expanded
+      - in: query
+        name: limit
+        description: A limit on the number of objects to be returned
+      - in: query
+        name: starting_after
+        description: A cursor for use in pagination
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Customers
+      - Customer
+      - Bank
+      - Accounts
+    post:
+      summary: Add Customers Customer Bank Accounts
+      description: Post Customers, Customer, Bank, Accounts
+      operationId: postCustomersCustomerBankAccounts
+      x-api-path-slug: customerscustomerbank-accounts-post
+      parameters:
+      - in: path
+        name: customer
+      - in: body
+        name: payload
+        description: Body parameters for the request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Customers
+      - Customer
+      - Bank
+      - Accounts
+  /customers/{customer}/bank_accounts/{id}:
+    delete:
+      summary: Delete Customers Customer Bank Accounts
+      description: Delete Customers, Customer, Bank, Accounts
+      operationId: deleteCustomersCustomerBankAccounts
+      x-api-path-slug: customerscustomerbank-accountsid-delete
+      parameters:
+      - in: path
+        name: customer
+      - in: path
+        name: id
+        description: The ID of the source to be deleted
+      - in: body
+        name: payload
+        description: Body parameters for the request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Customers
+      - Customer
+      - Bank
+      - Accounts
+    get:
+      summary: Get Customers Customer Bank Accounts
+      description: By default, you can see the 10 most recent sources stored on a
+        Customer directly on the object, but you can also retrieve details about a
+        specific bank account stored on the Stripe account.
+      operationId: getCustomersCustomerBankAccounts
+      x-api-path-slug: customerscustomerbank-accountsid-get
+      parameters:
+      - in: path
+        name: customer
+      - in: query
+        name: expand
+        description: Specifies which fields in the response should be expanded
+      - in: path
+        name: id
+        description: ID of bank account to retrieve
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Customers
+      - Customer
+      - Bank
+      - Accounts
+    post:
+      summary: Add Customers Customer Bank Accounts
+      description: Post Customers, Customer, Bank, Accounts
+      operationId: postCustomersCustomerBankAccounts
+      x-api-path-slug: customerscustomerbank-accountsid-post
+      parameters:
+      - in: path
+        name: customer
+      - in: path
+        name: id
+        description: The ID of the card to be updated
+      - in: body
+        name: payload
+        description: Body parameters for the request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Customers
+      - Customer
+      - Bank
+      - Accounts
+  /customers/{customer}/bank_accounts/{id}/verify:
+    post:
+      summary: Add Customers Customer Bank Accounts  Verify
+      description: Post Customers, Customer, Bank, Accounts, , Verify
+      operationId: postCustomersCustomerBankAccountsVerify
+      x-api-path-slug: customerscustomerbank-accountsidverify-post
+      parameters:
+      - in: path
+        name: customer
+      - in: path
+        name: id
+        description: The ID of the source to be verified
+      - in: body
+        name: payload
+        description: Body parameters for the request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Customers
+      - Customer
+      - Bank
+      - Accounts
+      - ""
+      - Verify
+  /account:
+    delete:
+      summary: Delete Account
+      description: With Connect, you may delete Custom accounts you manage.Custom
+        accounts created using test-mode keys can be deleted at any time. Custom accounts
+        created using live-mode keys may only be deleted once all balances are zero.If
+        you are looking to close your own account, use the data tab in your account
+        settings instead.
+      operationId: deleteAccount
+      x-api-path-slug: account-delete
+      parameters:
+      - in: body
+        name: payload
+        description: Body parameters for the request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Account
+    get:
+      summary: Get Account
+      description: Retrieves the details of the account.
+      operationId: getAccount
+      x-api-path-slug: account-get
+      parameters:
+      - in: query
+        name: account
+        description: The identifier of the account to retrieve
+      - in: query
+        name: expand
+        description: Specifies which fields in the response should be expanded
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Account
+    post:
+      summary: Add Account
+      description: Updates a connected Express or Custom account by setting the values
+        of the parameters passed. Any parameters not provided are left unchanged.
+        To update your own account, use the Dashboard.Refer to our Connect documentation
+        to learn more about updating accounts.
+      operationId: postAccount
+      x-api-path-slug: account-post
+      parameters:
+      - in: body
+        name: payload
+        description: Body parameters for the request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Account
+  /account/login_links:
+    post:
+      summary: Add Account Login Links
+      description: Creates a single-use login link for an Express account to access
+        their Stripe dashboard.You may only create login links for Express accounts
+        connected to your platform.
+      operationId: postAccountLoginLinks
+      x-api-path-slug: accountlogin-links-post
+      parameters:
+      - in: body
+        name: payload
+        description: Body parameters for the request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Account
+      - Login
+      - Links
+  /account/logout:
+    put:
+      summary: Put Account Logout
+      description: Invalidates all sessions for a light account, for a platform to
+        use during platform logout.You may only log out Express accounts connected
+        to your platform.
+      operationId: putAccountLogout
+      x-api-path-slug: accountlogout-put
+      parameters:
+      - in: body
+        name: payload
+        description: Body parameters for the request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+      tags:
+      - Account
+      - Logout
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

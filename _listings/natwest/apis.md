@@ -12,33 +12,35 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/natwest/apis.md
 specificationVersion: "0.14"
 apis:
-- name: NatWest Get Current Personal Accounts
+- name: NatWest
   x-api-slug: natwest
-  description: This endpoint can contain multiple brands owned by a particular banking
-    group. Each brand can own multiple PCA products.
+  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapis-io-apis-for-natwest-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/natwest-logo.png
   humanURL: https://personal.natwest.com/personal.html
-  baseURL: https://openapi.natwest.com/open-banking/v2.1//personal-current-accounts/
-  tags: Current,Personal,Accounts
+  baseURL: https://openapi.natwest.com/open-banking/v2.1/
+  tags: UK Banks, API Provider, Profiles, General Data, Relative Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/natwest/personalcurrentaccounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/natwest/personalcurrentaccounts-get-openapi.md
-- name: NatWest Get Current Business Accounts
+- name: NatWest
   x-api-slug: natwest
-  description: This endpoint can contain multiple brands owned by a particular banking
-    group. Each brand can own multiple BCA products.
+  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapis-io-apis-for-natwest-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/natwest-logo.png
   humanURL: https://personal.natwest.com/personal.html
-  baseURL: https://openapi.natwest.com/open-banking/v2.1//business-current-accounts/
-  tags: Current,Business,Accounts
+  baseURL: https://openapi.natwest.com/open-banking/v2.1/
+  tags: UK Banks, API Provider, Profiles, General Data, Relative Data, Banking
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/natwest/personalcurrentaccounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/natwest/personalcurrentaccounts-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/natwest/businesscurrentaccounts-get-postman.md
   - type: x-openapi-spec
@@ -60,6 +62,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/natwest/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://nationwide.building.society.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://natwest.stack.network
 - type: x-developer
   url: http://openbankingapis.io/uk/natwest
 - type: x-documentation

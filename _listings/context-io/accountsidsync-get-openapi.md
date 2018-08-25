@@ -1190,6 +1190,253 @@ paths:
       tags:
       - Accounts
       - Sync
+    post:
+      summary: Post Accounts Sync
+      description: Triggers a sync of all sources on the account. This will start
+        a sync job for all sources under the account.
+      operationId: Create_syncAllAccountSources_
+      x-api-path-slug: accountsidsync-post
+      parameters:
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Sync
+  /accounts/{id}/threads:
+    get:
+      summary: Get Accounts Threads
+      description: Lists threads on an account.
+      operationId: listAccountThreads_
+      x-api-path-slug: accountsidthreads-get
+      parameters:
+      - in: query
+        name: active_after
+        description: Get threads with at least one message dated after this timestamp
+      - in: query
+        name: active_before
+        description: Get threads with at least one message dated before this timestamp
+      - in: query
+        name: bcc
+        description: Get threads with at least one message having this email address
+          BCCed
+      - in: query
+        name: cc
+        description: Get threads with at least one message having this email address
+          CCed
+      - in: query
+        name: email
+        description: Email address of the contact for whom you want the latest threads
+      - in: query
+        name: folder
+        description: Filter threads by the folder (or Gmail label)
+      - in: query
+        name: from
+        description: Get threads with at least one message sent from this email address
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: query
+        name: indexed_after
+        description: Get threads with at least one message indexed after this timestamp
+      - in: query
+        name: indexed_before
+        description: Get threads with at least one message indexed before this timestamp
+      - in: query
+        name: limit
+        description: The maximum number of results to return
+      - in: query
+        name: offset
+        description: Start the list at this offset (zero-based)
+      - in: query
+        name: started_after
+        description: Get threads whose first message is dated after this timestamp
+      - in: query
+        name: started_before
+        description: Get threads whose first message is dated before this timestamp
+      - in: query
+        name: subject
+        description: Get threads with messages whose subject matches this search string
+      - in: query
+        name: to
+        description: Get threads with at least one message sent to this email address
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Threads
+  /accounts/{id}/threads/{thread_id}:
+    get:
+      summary: Get Accounts Threads Thread
+      description: |-
+        Returns files, contacts and messages on a given thread. The purpose is to allow Gmail extensions to easily retrieve data when users's load a conversation in the Gmail UI. Hence, threads are identified by the value of their Gmail thread prefixed with "gm-".
+        For example, if the URL of a conversation in the Gmail UI is https://mail.google.com/mail/u/0/#mbox/13119ab37f00b826, you would obtain the details about this thread by calling:
+        GET https://api.context.io/2.0/accounts/<accountId>/threads/gm-13119ab37f00b826
+
+        What about threads on non-Gmail mailboxes?
+        You can retrieve thread information for any message using the Thread resource of that message.
+      operationId: getAccountThread_
+      x-api-path-slug: accountsidthreadsthread-id-get
+      parameters:
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: path
+        name: thread_id
+        description: A gmail_thread_id prefixed with gm-
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Threads
+      - Thread
+  /accounts/{id}/webhooks:
+    get:
+      summary: Get Accounts Webhooks
+      description: List WebHooks configured for an account.
+      operationId: listAccountWebhooks_
+      x-api-path-slug: accountsidwebhooks-get
+      parameters:
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Webhooks
+    post:
+      summary: Post Accounts Webhooks
+      description: Creates a new WebHook on an account.
+      operationId: createAccountWebhook_
+      x-api-path-slug: accountsidwebhooks-post
+      parameters:
+      - in: query
+        name: callback_url
+        description: A valid URL Context
+      - in: query
+        name: failure_notif_url
+        description: A valid URL Context
+      - in: query
+        name: filter_cc
+        description: Check for new messages where a given name or email address is
+          cced
+      - in: query
+        name: filter_file_name
+        description: Check for new messages where a file whose name matches the given
+          string is attached
+      - in: query
+        name: filter_file_revisions
+        description: Check for new message where a new revision of a given file is
+          attached
+      - in: query
+        name: filter_folder_added
+        description: Check for messages filed in a given folder
+      - in: query
+        name: filter_folder_removed
+        description: Check for messages removed from a given folder
+      - in: query
+        name: filter_from
+        description: Check for new messages received from a given name or email address
+      - in: query
+        name: filter_new_important
+        description: Check for new messages automatically tagged as important by the
+          Gmail Priority Inbox algorithm
+      - in: query
+        name: filter_subject
+        description: Check for new messages with a subject matching a given string
+          or regular expresion
+      - in: query
+        name: filter_thread
+        description: Check for new messages in a given thread
+      - in: query
+        name: filter_to
+        description: Check for new messages sent to a given name or email address
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: query
+        name: sync_period
+        description: Desired maximum delay between the moment the email comes in the
+          users mailbox and the time we call the callback_url
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Webhooks
+  /accounts/{id}/webhooks/{webhook_id}:
+    get:
+      summary: Get Accounts Webhooks Webhook
+      description: Gets properties of a given WebHook.
+      operationId: getAccountWebhook_
+      x-api-path-slug: accountsidwebhookswebhook-id-get
+      parameters:
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: path
+        name: webhook_id
+        description: Unique id of the webhook instance
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Webhooks
+      - Webhook
+    post:
+      summary: Post Accounts Webhooks Webhook
+      description: |-
+        Changes properties of a given WebHook. The only property of a WebHook that can be changed is it's active property. If you want to change the filters or callback urls, delete it and create a new one.
+        Changing the active property can be useful in two cases:
+        - Pause/resume WebHooks: If your application needs up-to-date information when users are logged in the best option is to keep a WebHook with no filters on that account that will be resumed (setting active to 1) when the user logs in and paused (setting active to 0) when the user logs out of your app.
+        - Acting upon a failure notification: If a WebHook fails, your failure_notif_url is called (see creating a WebHook) an its active property becomes 0. Set the active property back to 1 to get it working again.
+      operationId: modifyAccountWebhook_
+      x-api-path-slug: accountsidwebhookswebhook-id-post
+      parameters:
+      - in: query
+        name: active
+        description: The active property of a WebHook allows you to pause (set to
+          0) or resume (set to 1) it
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: path
+        name: webhook_id
+        description: Unique id of the webhook instance
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Webhooks
+      - Webhook
+    delete:
+      summary: Delete Accounts Webhooks Webhook
+      description: Cancels a WebHook.
+      operationId: Delete_cancelAccountWebhook_
+      x-api-path-slug: accountsidwebhookswebhook-id-delete
+      parameters:
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: path
+        name: webhook_id
+        description: Unique id of the webhook instance
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Webhooks
+      - Webhook
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

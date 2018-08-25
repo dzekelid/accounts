@@ -45,6 +45,132 @@ paths:
           description: OK
       tags:
       - Accounts
+    post:
+      summary: POST for Account
+      description: Add account into the system
+      operationId: createAccountEntity
+      x-api-path-slug: account-post
+      parameters:
+      - in: body
+        name: body
+        description: Add account into the system
+        schema:
+          $ref: '#/definitions/holder'
+      - in: header
+        name: X-API2CRM-CRMKEY
+        description: CRM Key
+      - in: header
+        name: X-API2CRM-USERKEY
+        description: User Key
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+  /account/count:
+    get:
+      summary: COUNT for Account
+      description: Count all accounts from the system
+      operationId: getAccountCountCollection
+      x-api-path-slug: accountcount-get
+      parameters:
+      - in: header
+        name: X-API2CRM-CRMKEY
+        description: CRM Key
+      - in: header
+        name: X-API2CRM-USERKEY
+        description: User Key
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Count
+  /account/describe:
+    get:
+      summary: DESCRIBE for Account
+      description: Returns describe for accounts
+      operationId: getAccountDescribe
+      x-api-path-slug: accountdescribe-get
+      parameters:
+      - in: header
+        name: X-API2CRM-CRMKEY
+        description: CRM Key
+      - in: header
+        name: X-API2CRM-USERKEY
+        description: User Key
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Describe
+  /account/{account_id}:
+    delete:
+      summary: DELETE for Account
+      description: Delete account information
+      operationId: deleteAccountEntity
+      x-api-path-slug: accountaccount-id-delete
+      parameters:
+      - in: path
+        name: account_id
+        description: Account Identifier
+      - in: header
+        name: X-API2CRM-CRMKEY
+        description: CRM Key
+      - in: header
+        name: X-API2CRM-USERKEY
+        description: User Key
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+    get:
+      summary: GET for Account
+      description: Return account information
+      operationId: getAccountEntity
+      x-api-path-slug: accountaccount-id-get
+      parameters:
+      - in: path
+        name: account_id
+        description: Account Identifier
+      - in: header
+        name: X-API2CRM-CRMKEY
+        description: CRM Key
+      - in: header
+        name: X-API2CRM-USERKEY
+        description: User Key
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+    put:
+      summary: PUT for Account
+      description: Update account information
+      operationId: updateAccountEntity
+      x-api-path-slug: accountaccount-id-put
+      parameters:
+      - in: path
+        name: account_id
+        description: Account Identifier
+      - in: body
+        name: body
+        description: Update account information
+        schema:
+          $ref: '#/definitions/holder'
+      - in: header
+        name: X-API2CRM-CRMKEY
+        description: CRM Key
+      - in: header
+        name: X-API2CRM-USERKEY
+        description: User Key
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -11,33 +11,37 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28107-dans
 x-kinRank: "7"
 x-alexaRank: "55813"
 tags: Accounts
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/danske-bank/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Danske Bank Get Current Personal Accounts
+- name: Danske Bank
   x-api-slug: danske-bank
-  description: This endpoint can contain multiple brands owned by a particular banking
-    group. Each brand can own multiple PCA products.
+  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapis-io-apis-for-danske-bank-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28107-danske-bank.jpg
   humanURL: https://danskebank.com
-  baseURL: https://obp-data.danskebank.com/open-banking/v2.1//personal-current-accounts/
-  tags: Personal,Current,Accounts
+  baseURL: https://obp-data.danskebank.com/open-banking/v2.1/
+  tags: Financial Services, Insurance, UK Banks, Danish Bank, API Provider, Profiles,
+    General Data, Relative Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/danske-bank/personalcurrentaccounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/danske-bank/personalcurrentaccounts-get-openapi.md
-- name: Danske Bank Get Current Business Accounts
+- name: Danske Bank
   x-api-slug: danske-bank
-  description: This endpoint can contain multiple brands owned by a particular banking
-    group. Each brand can own multiple BCA products.
+  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapis-io-apis-for-danske-bank-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28107-danske-bank.jpg
   humanURL: https://danskebank.com
-  baseURL: https://obp-data.danskebank.com/open-banking/v2.1//business-current-accounts/
-  tags: Business,Current,Accounts
+  baseURL: https://obp-data.danskebank.com/open-banking/v2.1/
+  tags: Financial Services, Insurance, UK Banks, Danish Bank, API Provider, Profiles,
+    General Data, Relative Data, Banking
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/danske-bank/personalcurrentaccounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/danske-bank/personalcurrentaccounts-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/danske-bank/businesscurrentaccounts-get-postman.md
   - type: x-openapi-spec
@@ -58,6 +62,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/danske-bank/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://crypto.compare.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://danske.bank.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/danske-bank
 - type: x-developer

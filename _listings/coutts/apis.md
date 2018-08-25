@@ -14,19 +14,18 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/coutts/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Coutts Get Current Business Accounts
+- name: Coutts
   x-api-slug: coutts
-  description: This endpoint can contain multiple brands owned by a particular banking
-    group. Each brand can own multiple BCA products.
+  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapis-io-apis-froms-coutts-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Coutts-logo.jpg
   humanURL: https://www.coutts.com/
-  baseURL: https://openapi.coutts.com/open-banking/v2.1//business-current-accounts/
-  tags: Banks,Accounts
+  baseURL: https://openapi.coutts.com/open-banking/v2.1/
+  tags: UK Banks, ATMs, API Provider, Profiles, General Data, Relative Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/coutts/businesscurrentaccounts-get-postman.md
@@ -51,6 +50,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/coutts/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://coord.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://coutts.stack.network
 - type: x-website
   url: https://www.coutts.com/
 include: []

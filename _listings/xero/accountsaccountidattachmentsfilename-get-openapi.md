@@ -172,6 +172,31 @@ paths:
       - AccountID
       - Attachments
       - FileName
+    post:
+      summary: Post Accounts Attachments Filename
+      description: Post accounts account attachments filename.
+      operationId: postAccountsAccountAttachmentsFilename
+      x-api-path-slug: accountsaccountidattachmentsfilename-post
+      parameters:
+      - in: path
+        name: AccountID
+        description: The Xero generated unique identifier for an account
+      - in: body
+        name: Content
+        description: The raw content of the file to be uploaded
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: FileName
+        description: The filename of the attachment being uploaded
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - AccountID
+      - Attachments
+      - FileName
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

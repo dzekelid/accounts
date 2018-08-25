@@ -146,6 +146,31 @@ paths:
           description: OK
       tags:
       - Accounts
+    put:
+      summary: PUT for Account
+      description: Update account information
+      operationId: updateAccountEntity
+      x-api-path-slug: accountaccount-id-put
+      parameters:
+      - in: path
+        name: account_id
+        description: Account Identifier
+      - in: body
+        name: body
+        description: Update account information
+        schema:
+          $ref: '#/definitions/holder'
+      - in: header
+        name: X-API2CRM-CRMKEY
+        description: CRM Key
+      - in: header
+        name: X-API2CRM-USERKEY
+        description: User Key
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -2,7 +2,7 @@
   "info": {
     "name": "Standard Chartered Accounts",
     "_postman_id": "5dc9cb3e-f375-497d-b7b7-edba986d1968",
-    "description": "The “GetAccountBalance” API upon successful user authentication and entitlement checks will return the various types of “Account Balances” applicable for the specified Account Number.",
+    "description": "The ???GetAccountBalance??? API upon successful user authentication and entitlement checks will return the various types of ???Account Balances??? applicable for the specified Account Number.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [
@@ -50,7 +50,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "The “GetAccountBalance” API upon successful user authentication and entitlement checks will return the various types of “Account Balances” applicable for the specified Account Number."
+            "description": "The ???GetAccountBalance??? API upon successful user authentication and entitlement checks will return the various types of ???Account Balances??? applicable for the specified Account Number."
           },
           "response": [
             {

@@ -10,33 +10,35 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/first-trust-bank/apis.md
 specificationVersion: "0.14"
 apis:
-- name: First Trust Bank (Open Banking) Get Current Personal Accounts
+- name: First Trust Bank (Open Banking)
   x-api-slug: first-trust-bank-open-banking
-  description: This endpoint can contain multiple brands owned by a particular banking
-    group. Each brand can own multiple PCA products.
+  description: this-is-the-open-banking-driven-set-of-apis-for-first-trust-bank--providing-a-machine-readable-definition-of-what-is-available-via-their-open-banking-set-of-apis-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mdy_8774354__firsttrustbank.jpg
   humanURL: https://firsttrustbank.co.uk/
-  baseURL: https://openapi.firsttrustbank.co.uk/open-banking/v2.1//personal-current-accounts/
-  tags: Current, Personal, Accounts
+  baseURL: https://openapi.firsttrustbank.co.uk/open-banking/v2.1/
+  tags: UK Banks, ATMs, API Provider, Profiles, General Data, Relative Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/first-trust-bank/personalcurrentaccounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/first-trust-bank/personalcurrentaccounts-get-openapi.md
-- name: First Trust Bank (Open Banking) Get Current Business Accounts
+- name: First Trust Bank (Open Banking)
   x-api-slug: first-trust-bank-open-banking
-  description: This endpoint can contain multiple brands owned by a particular banking
-    group. Each brand can own multiple BCA products.
+  description: this-is-the-open-banking-driven-set-of-apis-for-first-trust-bank--providing-a-machine-readable-definition-of-what-is-available-via-their-open-banking-set-of-apis-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mdy_8774354__firsttrustbank.jpg
   humanURL: https://firsttrustbank.co.uk/
-  baseURL: https://openapi.firsttrustbank.co.uk/open-banking/v2.1//business-current-accounts/
-  tags: Current, Business, Accounts
+  baseURL: https://openapi.firsttrustbank.co.uk/open-banking/v2.1/
+  tags: UK Banks, ATMs, API Provider, Profiles, General Data, Relative Data, Banking
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/first-trust-bank/personalcurrentaccounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/first-trust-bank/personalcurrentaccounts-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/first-trust-bank/businesscurrentaccounts-get-postman.md
   - type: x-openapi-spec
@@ -56,6 +58,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/first-trust-bank/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://firebase.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://first.trust.bank.stack.network
 - type: x-developer
   url: http://openbankingapis.io/united-kingdom/first-trust-bank
 - type: x-documentation

@@ -2,7 +2,7 @@
   "info": {
     "name": "Standard Chartered Finds all support transaction types for a given account",
     "_postman_id": "cef1f1b1-f34f-401c-a480-d5bf3a2bcfd1",
-    "description": "The “GetTransactionTypes” API upon successful user authentication and entitlement checks will return the supported transaction types for the specified account",
+    "description": "The ???GetTransactionTypes??? API upon successful user authentication and entitlement checks will return the supported transaction types for the specified account",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [
@@ -50,7 +50,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "The “GetTransactionTypes” API upon successful user authentication and entitlement checks will return the supported transaction types for the specified account"
+            "description": "The ???GetTransactionTypes??? API upon successful user authentication and entitlement checks will return the supported transaction types for the specified account"
           },
           "response": [
             {

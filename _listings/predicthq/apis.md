@@ -7,19 +7,19 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-pred
 x-kinRank: "7"
 x-alexaRank: "292227"
 tags: Accounts
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/predicthq/apis.md
 specificationVersion: "0.14"
 apis:
-- name: PredictHQ Retrieve Account Details
+- name: PredictHQ
   x-api-slug: predicthq
-  description: If you need your account details for whatever reason, it's really easy
-    to get them.
+  description: todo-add-description
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-predicthq.jpg
   humanURL: http://www.predicthq.com/
-  baseURL: https://api.predicthq.com////v1/accounts/self/
-  tags: Accounts,Self
+  baseURL: https://api.predicthq.com//
+  tags: SaaS, Technology, Events, API Provider, Profiles, Service API, Relative Data,
+    Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/predicthq/v1accountsself-get-postman.md
@@ -40,6 +40,10 @@ apis:
 x-common:
 - type: x-website
   url: http://www.predicthq.com/
+- type: x-api-gallery
+  url: http://postmark.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://predicthq.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/predicthq
 - type: x-email

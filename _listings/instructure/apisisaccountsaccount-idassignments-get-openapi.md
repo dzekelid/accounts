@@ -48,6 +48,18 @@ paths:
       - Account
       - Id
       - Assignments
+  /course_accounts:
+    get:
+      summary: List accounts for course admins
+      description: List accounts for course admins.
+      operationId: list-accounts-for-course-admins
+      x-api-path-slug: course-accounts-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Course
+      - Accounts
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

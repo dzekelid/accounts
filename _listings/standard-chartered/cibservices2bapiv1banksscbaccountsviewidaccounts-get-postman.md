@@ -50,7 +50,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "The “GetAccountBalance” API upon successful user authentication and entitlement checks will return the various types of “Account Balances” applicable for the specified Account Number."
+            "description": "The ???GetAccountBalance??? API upon successful user authentication and entitlement checks will return the various types of ???Account Balances??? applicable for the specified Account Number."
           },
           "response": [
             {
@@ -102,7 +102,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "The “GetTransactionTypes” API upon successful user authentication and entitlement checks will return the supported transaction types for the specified account"
+            "description": "The ???GetTransactionTypes??? API upon successful user authentication and entitlement checks will return the supported transaction types for the specified account"
           },
           "response": [
             {

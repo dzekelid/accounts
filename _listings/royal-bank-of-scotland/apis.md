@@ -14,33 +14,35 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "52820"
 tags: Accounts
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/royal-bank-of-scotland/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Royal Bank of Scotland Get Current Personal Accounts
+- name: Royal Bank of Scotland
   x-api-slug: royal-bank-of-scotland
-  description: This endpoint can contain multiple brands owned by a particular banking
-    group. Each brand can own multiple PCA products.
+  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapis-io-apis-for-the-royal-bank-of-scotland-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/royal-bank-of-scotland.png
   humanURL: https://www.rbs.com
-  baseURL: https://openapi.rbs.co.uk/open-banking/v2.1//personal-current-accounts/
-  tags: Current,Personal,Accounts
+  baseURL: https://openapi.rbs.co.uk/open-banking/v2.1/
+  tags: SaaS, UK Banks, Relative Data, General Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/royal-bank-of-scotland/personalcurrentaccounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/royal-bank-of-scotland/personalcurrentaccounts-get-openapi.md
-- name: Royal Bank of Scotland Get Current Business Accounts
+- name: Royal Bank of Scotland
   x-api-slug: royal-bank-of-scotland
-  description: This endpoint can contain multiple brands owned by a particular banking
-    group. Each brand can own multiple BCA products.
+  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapis-io-apis-for-the-royal-bank-of-scotland-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/royal-bank-of-scotland.png
   humanURL: https://www.rbs.com
-  baseURL: https://openapi.rbs.co.uk/open-banking/v2.1//business-current-accounts/
-  tags: Current,Business,Accounts
+  baseURL: https://openapi.rbs.co.uk/open-banking/v2.1/
+  tags: SaaS, UK Banks, Relative Data, General Data, Banking
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/royal-bank-of-scotland/personalcurrentaccounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/royal-bank-of-scotland/personalcurrentaccounts-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/royal-bank-of-scotland/businesscurrentaccounts-get-postman.md
   - type: x-openapi-spec
@@ -64,6 +66,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/royal-bank-of-scotland/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://rotten.tomatoes.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://royal.bank.of.scotland.stack.network
 - type: x-contact-form
   url: http://www.bankofapis.com/Home/Contact
 - type: x-crunchbase
