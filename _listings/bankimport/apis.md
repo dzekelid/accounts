@@ -6,25 +6,11 @@ image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly
 x-kinRank: "7"
 x-alexaRank: "10101435"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bankimport/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Bankimport
-  x-api-slug: bankimport
-  description: BankImport provides users with a single place to track their financials
-    over several accounts from different banks. The BankImport API allows developers
-    to automatize the processing of incoming and outgoing money, providing direct
-    access to transactions, bank accounts, and settings. The RESTful API returns JSON
-    or XML formatted responses.
-  image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png
-  humanURL: https://www.bankimport.com/
-  baseURL: https:///
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bankimport/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://*.bankimport.com

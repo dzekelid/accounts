@@ -12,14 +12,26 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Open Science Framework
-  x-api-slug: open-science-framework
-  description: osf-provides-free-and-open-source-project-management-support-for-researchers-across-the-entire-research-lifecycle--as-a-collaboration-tool-osf-helps-researchers-work-on-projects-privately-with-a-limited-number-of-collaborators-and-make-parts-of-their-projects-public-or-make-all-the-project-publicly-accessible-for-broader-dissemination--as-a-workflow-system-osf-enables-connections-to-the-many-services-researchers-already-use-to-streamline-their-process-and-increase-efficiency--as-a-flexible-repository-it-can-store-and-archive-research-data-protocols-and-materials--
+- name: Open Science Framework - List all addon accounts
+  x-api-slug: usersuser-idaddonsprovideraccounts-get
+  description: |-
+    A paginated list of addon accounts authorized by this user.
+
+    #### Permissions
+
+    Addon accounts are visible only to the user that authorized the account.
+
+    #### Returns
+    Returns a JSON object containing `data` and `links` keys.
+
+    The `data` key contains an array of at most 10 addon account objects. Each resource in the array is a separate  addon account object and contains the full representation of the addon account.
+
+    The `links` key contains a dictionary of links that can be used for [pagination](#Introduction_pagination).
   image: ""
   humanURL: https://cos.io
   baseURL: https://test-api.osf.io//v2
@@ -29,99 +41,94 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccounts-get-openapi.md
-- name: Open Science Framework
-  x-api-slug: open-science-framework
-  description: osf-provides-free-and-open-source-project-management-support-for-researchers-across-the-entire-research-lifecycle--as-a-collaboration-tool-osf-helps-researchers-work-on-projects-privately-with-a-limited-number-of-collaborators-and-make-parts-of-their-projects-public-or-make-all-the-project-publicly-accessible-for-broader-dissemination--as-a-workflow-system-osf-enables-connections-to-the-many-services-researchers-already-use-to-streamline-their-process-and-increase-efficiency--as-a-flexible-repository-it-can-store-and-archive-research-data-protocols-and-materials--
+- name: Open Science Framework - Retrieve an addon account
+  x-api-slug: usersuser-idaddonsprovideraccountsaccount-id-get
+  description: |-
+    Retrieves the details of an addon account
+
+    #### Permissions
+
+    Addon accounts are visible only to the user that authorized the account.
+
+    ####Returns
+    Returns a JSON object with a `data` key containing the representation of the requested addon account, if the request was successful.
+
+    If the request is unsuccessful, an `errors` key containing information about the failure will be returned. Refer to the [list of error codes](#Introduction_error_codes) to understand why this request may have failed.
   image: ""
   humanURL: https://cos.io
   baseURL: https://test-api.osf.io//v2
   tags: Research, Science, API Provider, Profiles, General Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccounts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccounts-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccountsaccount-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccountsaccount-id-get-openapi.md
-- name: Open Science Framework
-  x-api-slug: open-science-framework
-  description: osf-provides-free-and-open-source-project-management-support-for-researchers-across-the-entire-research-lifecycle--as-a-collaboration-tool-osf-helps-researchers-work-on-projects-privately-with-a-limited-number-of-collaborators-and-make-parts-of-their-projects-public-or-make-all-the-project-publicly-accessible-for-broader-dissemination--as-a-workflow-system-osf-enables-connections-to-the-many-services-researchers-already-use-to-streamline-their-process-and-increase-efficiency--as-a-flexible-repository-it-can-store-and-archive-research-data-protocols-and-materials--
+- name: Open Science Framework - Retrieve an addon account
+  x-api-slug: usersuser-idaddonsprovideraccountsaccount-id-get
+  description: |-
+    Retrieves the details of an addon account
+
+    #### Permissions
+
+    Addon accounts are visible only to the user that authorized the account.
+
+    ####Returns
+    Returns a JSON object with a `data` key containing the representation of the requested addon account, if the request was successful.
+
+    If the request is unsuccessful, an `errors` key containing information about the failure will be returned. Refer to the [list of error codes](#Introduction_error_codes) to understand why this request may have failed.
   image: ""
   humanURL: https://cos.io
   baseURL: https://test-api.osf.io//v2
   tags: Research, Science, API Provider, Profiles, General Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccounts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccounts-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccountsaccount-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccountsaccount-id-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccountsaccount-id-get-openapi.md
-- name: Open Science Framework
-  x-api-slug: open-science-framework
-  description: osf-provides-free-and-open-source-project-management-support-for-researchers-across-the-entire-research-lifecycle--as-a-collaboration-tool-osf-helps-researchers-work-on-projects-privately-with-a-limited-number-of-collaborators-and-make-parts-of-their-projects-public-or-make-all-the-project-publicly-accessible-for-broader-dissemination--as-a-workflow-system-osf-enables-connections-to-the-many-services-researchers-already-use-to-streamline-their-process-and-increase-efficiency--as-a-flexible-repository-it-can-store-and-archive-research-data-protocols-and-materials--
+- name: Open Science Framework - Retrieve an addon account
+  x-api-slug: usersuser-idaddonsprovideraccountsaccount-id-get
+  description: |-
+    Retrieves the details of an addon account
+
+    #### Permissions
+
+    Addon accounts are visible only to the user that authorized the account.
+
+    ####Returns
+    Returns a JSON object with a `data` key containing the representation of the requested addon account, if the request was successful.
+
+    If the request is unsuccessful, an `errors` key containing information about the failure will be returned. Refer to the [list of error codes](#Introduction_error_codes) to understand why this request may have failed.
   image: ""
   humanURL: https://cos.io
   baseURL: https://test-api.osf.io//v2
   tags: Research, Science, API Provider, Profiles, General Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccounts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccounts-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccountsaccount-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccountsaccount-id-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccountsaccount-id-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccountsaccount-id-get-openapi.md
-- name: Open Science Framework
-  x-api-slug: open-science-framework
-  description: osf-provides-free-and-open-source-project-management-support-for-researchers-across-the-entire-research-lifecycle--as-a-collaboration-tool-osf-helps-researchers-work-on-projects-privately-with-a-limited-number-of-collaborators-and-make-parts-of-their-projects-public-or-make-all-the-project-publicly-accessible-for-broader-dissemination--as-a-workflow-system-osf-enables-connections-to-the-many-services-researchers-already-use-to-streamline-their-process-and-increase-efficiency--as-a-flexible-repository-it-can-store-and-archive-research-data-protocols-and-materials--
+- name: Open Science Framework - Retrieve an addon account
+  x-api-slug: usersuser-idaddonsprovideraccountsaccount-id-get
+  description: |-
+    Retrieves the details of an addon account
+
+    #### Permissions
+
+    Addon accounts are visible only to the user that authorized the account.
+
+    ####Returns
+    Returns a JSON object with a `data` key containing the representation of the requested addon account, if the request was successful.
+
+    If the request is unsuccessful, an `errors` key containing information about the failure will be returned. Refer to the [list of error codes](#Introduction_error_codes) to understand why this request may have failed.
   image: ""
   humanURL: https://cos.io
   baseURL: https://test-api.osf.io//v2
   tags: Research, Science, API Provider, Profiles, General Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccounts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccounts-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccountsaccount-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccountsaccount-id-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccountsaccount-id-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccountsaccount-id-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccountsaccount-id-get-openapi.md
-- name: Open Science Framework
-  x-api-slug: open-science-framework
-  description: OSF provides free and open source project management support for researchers
-    across the entire research lifecycle. As a collaboration tool, OSF helps researchers
-    work on projects privately with a limited number of collaborators and make parts
-    of their projects public, or make all the project publicly accessible for broader
-    dissemination. As a workflow system, OSF enables connections to the many services
-    researchers already use to streamline their process and increase efficiency. As
-    a flexible repository, it can store and archive research data, protocols, and
-    materials.
-  image: ""
-  humanURL: https://cos.io
-  baseURL: https://test-api.osf.io//v2
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/openapi.md
 x-common:
 - type: x-website
   url: https://cos.io

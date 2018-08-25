@@ -7,36 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbo
 x-kinRank: "10"
 x-alexaRank: "89"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dropbox/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Cloud Elements - Dropbox For Business API
-  x-api-slug: cloud-elements--dropbox-for-business-api
-  description: Dropbox is a modern workspace designed to reduce busywork-so you can
-    focus on the things that matter. Sign in and put your creative energy to work.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1/team
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dropbox/openapi.md
-- name: Dropbox Content
-  x-api-slug: dropbox-content
-  description: Dropbox is a modern workspace designed to reduce busywork-so you can
-    focus on the things that matter. Sign in and put your creative energy to work.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api-content.dropbox.com//1
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dropbox/openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Retrieves information about the user's account.
+  x-api-slug: accountinfo-get
+  description: Retrieves information about the user's account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -48,9 +26,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dropbox/accountinfo-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dropbox/accountinfo-get-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Retrieves information about the user's account.
+  x-api-slug: accountinfo-get
+  description: Retrieves information about the user's account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -62,11 +40,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dropbox/accountinfo-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dropbox/accountinfo-get-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Retrieves information about the user's account.
+  x-api-slug: accountinfo-get
+  description: Retrieves information about the user's account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -78,42 +54,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dropbox/accountinfo-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dropbox/accountinfo-get-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: Dropbox is a modern workspace designed to reduce busywork-so you can
-    focus on the things that matter. Sign in and put your creative energy to work.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dropbox/openapi.md
-- name: Dropbox Datastore API
-  x-api-slug: dropbox-datastore-api
-  description: Keep your apps structured data in sync with Dropbox
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dropbox/openapi.md
-- name: Dropbox Notify
-  x-api-slug: dropbox-notify
-  description: Dropbox is a modern workspace designed to reduce busywork-so you can
-    focus on the things that matter. Sign in and put your creative energy to work.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api-notify.dropbox.com//1
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dropbox/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://donorschoose.api.gallery.streamdata.io

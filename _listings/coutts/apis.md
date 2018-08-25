@@ -14,14 +14,15 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/coutts/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Coutts
-  x-api-slug: coutts
-  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapis-io-apis-froms-coutts-
+- name: Coutts - Get Current Business Accounts
+  x-api-slug: businesscurrentaccounts-get
+  description: This endpoint can contain multiple brands owned by a particular banking
+    group. Each brand can own multiple BCA products.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Coutts-logo.jpg
   humanURL: https://www.coutts.com/
   baseURL: https://openapi.coutts.com/open-banking/v2.1/
@@ -31,24 +32,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/coutts/businesscurrentaccounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/coutts/businesscurrentaccounts-get-openapi.md
-- name: Coutts
-  x-api-slug: coutts
-  description: Coutts /??ku?ts/ is a private bank and wealth manager, founded in 1692.
-    It is the seventh oldest bank in the world and its international arm was sold
-    to Union Bancaire Priv&eacute;e in March 2015. It has been owned by the Royal
-    Bank of Scotland Group (RBS) since 2000, when RBS purchased its parent, NatWest.
-    Coutts formed part of RBSs private banking division. During its time with RBS,
-    it acquired Z&uuml;rich-based Bank von Ernst &amp; Cie and in 2008, Coutts Bank
-    von Ernst and other Coutts International subsidiaries became RBS Coutts Bank.
-    These traded as RBS Coutts International to align them with the parent RBS Group
-    until 2011, when RBS Coutts was renamed Coutts &amp; Co. Limited.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Coutts-logo.jpg
-  humanURL: https://www.coutts.com/
-  baseURL: https://openapi.coutts.com/open-banking/v2.1/
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/coutts/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://coord.api.gallery.streamdata.io

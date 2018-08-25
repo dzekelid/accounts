@@ -8,14 +8,14 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/digital-river/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Digital River Shopper API
-  x-api-slug: digital-river-shopper-api
-  description: the-dr-connect-shopper-api-operates-on-a-store-and-products-that-are-set-up-in-global-commerce--
+- name: Digital River Shopper API - Get Shoppers Me Account
+  x-api-slug: v1shoppersmeaccount-get
+  description: Get shoppers me account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DigitalRiver_corp_logo_4c2.png
   humanURL: https://digitalriver.com
   baseURL: https://store.digitalriver.com//store/{mysite}
@@ -26,9 +26,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/digital-river/v1shoppersmeaccount-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/digital-river/v1shoppersmeaccount-get-openapi.md
-- name: Digital River Shopper API
-  x-api-slug: digital-river-shopper-api
-  description: the-dr-connect-shopper-api-operates-on-a-store-and-products-that-are-set-up-in-global-commerce--
+- name: Digital River Shopper API - Get Shoppers Me Account
+  x-api-slug: v1shoppersmeaccount-get
+  description: Get shoppers me account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DigitalRiver_corp_logo_4c2.png
   humanURL: https://digitalriver.com
   baseURL: https://store.digitalriver.com//store/{mysite}
@@ -39,11 +39,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/digital-river/v1shoppersmeaccount-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/digital-river/v1shoppersmeaccount-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/digital-river/v1shoppersmeaccount-get-openapi.md
-- name: Digital River Shopper API
-  x-api-slug: digital-river-shopper-api
-  description: the-dr-connect-shopper-api-operates-on-a-store-and-products-that-are-set-up-in-global-commerce--
+- name: Digital River Shopper API - Get Shoppers Me Account
+  x-api-slug: v1shoppersmeaccount-get
+  description: Get shoppers me account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DigitalRiver_corp_logo_4c2.png
   humanURL: https://digitalriver.com
   baseURL: https://store.digitalriver.com//store/{mysite}
@@ -54,22 +52,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/digital-river/v1shoppersmeaccount-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/digital-river/v1shoppersmeaccount-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/digital-river/v1shoppersmeaccount-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/digital-river/v1shoppersmeaccount-get-openapi.md
-- name: Digital River Shopper API
-  x-api-slug: digital-river-shopper-api
-  description: Digital Riveris a public company that provides global ecommerce, payments
-    and marketing services. In 2013, Digital River processed more than $30 billion
-    in online transactions.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DigitalRiver_corp_logo_4c2.png
-  humanURL: https://digitalriver.com
-  baseURL: https://store.digitalriver.com//store/{mysite}
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/digital-river/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://dezrez.api.gallery.streamdata.io

@@ -13,52 +13,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-batch/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Azure Batch API
-  x-api-slug: azure-batch-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-batch-100x-scale.png
-  humanURL: https://azure.microsoft.com/en-us/services/batch/
-  baseURL: ://management.azure.com//
-  tags: Microsoft, Batch, Stack Network, API Service Provider, API Provider, Profiles,
-    Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnamelistkeys-post-openapi.md
-- name: Azure Batch API
-  x-api-slug: azure-batch-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-batch-100x-scale.png
-  humanURL: https://azure.microsoft.com/en-us/services/batch/
-  baseURL: ://management.azure.com//
-  tags: Microsoft, Batch, Stack Network, API Service Provider, API Provider, Profiles,
-    Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnamelistkeys-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnamelistkeys-post-openapi.md
-- name: Azure Batch API
-  x-api-slug: azure-batch-api
-  description: Batch processing began with mainframe computers and punch cards. Today,
-    it still plays a central role in business, engineering, science, and other areas
-    that require running lots of automated tasks&mdash;processing bills and payroll,
-    calculating portfolio risk, designing new products, rendering animated films,
-    testing software, searching for energy, predicting the weather, and finding new
-    cures for disease. Previously, few people had access to the computing power for
-    these scenarios. With Azure Batch, that power is available to you when you need
-    it, without any capital investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-batch-100x-scale.png
-  humanURL: https://azure.microsoft.com/en-us/services/batch/
-  baseURL: ://management.azure.com//
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-batch/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://azure.automation.api.gallery.streamdata.io

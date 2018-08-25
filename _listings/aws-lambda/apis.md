@@ -11,14 +11,14 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-lambda/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
+- name: AWS Lambda API - Get Account Settings
+  x-api-slug: actiongetaccountsettings-get
+  description: Returns a customer's account settings.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: :///
@@ -30,9 +30,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-lambda/actiongetaccountsettings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-lambda/actiongetaccountsettings-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
+- name: AWS Lambda API - Get Account Settings
+  x-api-slug: actiongetaccountsettings-get
+  description: Returns a customer's account settings.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: :///
@@ -44,11 +44,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-lambda/actiongetaccountsettings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-lambda/actiongetaccountsettings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-lambda/actiongetaccountsettings-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
+- name: AWS Lambda API - Get Account Settings
+  x-api-slug: actiongetaccountsettings-get
+  description: Returns a customer's account settings.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: :///
@@ -60,13 +58,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-lambda/actiongetaccountsettings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-lambda/actiongetaccountsettings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-lambda/actiongetaccountsettings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-lambda/actiongetaccountsettings-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
+- name: AWS Lambda API - Get Account Settings
+  x-api-slug: actiongetaccountsettings-get
+  description: Returns a customer's account settings.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: :///
@@ -78,27 +72,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-lambda/actiongetaccountsettings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-lambda/actiongetaccountsettings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-lambda/actiongetaccountsettings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-lambda/actiongetaccountsettings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-lambda/actiongetaccountsettings-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: AWS Lambda is a zero-administration compute platform for back-end web
-    developers that runs your code for you in the AWScloudand provides you with a
-    fine-grained pricing structure. AWS Lambda runs your back-end code on its own
-    AWS compute fleet of Amazon Elastic Compute Cloud (Amazon EC2) instances across
-    multiple Availability Zones in a region, which provides the high availability,
-    security, performance, and scalability of the AWS infrastructure.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
-  humanURL: http://docs.aws.amazon.com/lambda/
-  baseURL: :///
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-lambda/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.kinesis.analytics.api.gallery.streamdata.io

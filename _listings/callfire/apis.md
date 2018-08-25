@@ -7,64 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-call
 x-kinRank: "9"
 x-alexaRank: "129466"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/callfire/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Callfire
-  x-api-slug: callfire
-  description: callfire
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
-  humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2
-  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
-    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
-    Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/callfire/meaccount-get-openapi.md
-- name: Callfire
-  x-api-slug: callfire
-  description: callfire
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
-  humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2
-  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
-    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
-    Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/callfire/meaccount-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/callfire/meaccount-get-openapi.md
-- name: Callfire
-  x-api-slug: callfire
-  description: callfire
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
-  humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2
-  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
-    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
-    Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/callfire/meaccount-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/callfire/meaccount-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/callfire/meaccount-get-openapi.md
-- name: Callfire
-  x-api-slug: callfire
-  description: Grow your business with virtual phone numbers, IVR, voice broadcasting,
-    mass text messaging services and power dialing. Try CallFire for FREE!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
-  humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/callfire/openapi.md
+apis: []
 x-common:
 - type: x--net-sdk
   url: https://github.com/CallFire/CallFire-CSharp-SDK

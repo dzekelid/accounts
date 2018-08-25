@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payr
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/payrun/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Pay Run.IO
-  x-api-slug: pay-run-io
-  description: open-scableable-transparent-payroll-api-
+- name: Pay Run.IO - Gets the bank account template
+  x-api-slug: templatesbankaccount-get
+  description: Return the bank account data object template
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
   humanURL: http://www.payrun.io
   baseURL: https://api.test.payrun.io//
@@ -25,9 +25,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/payrun/templatesbankaccount-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/payrun/templatesbankaccount-get-openapi.md
-- name: Pay Run.IO
-  x-api-slug: pay-run-io
-  description: open-scableable-transparent-payroll-api-
+- name: Pay Run.IO - Gets the bank account template
+  x-api-slug: templatesbankaccount-get
+  description: Return the bank account data object template
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
   humanURL: http://www.payrun.io
   baseURL: https://api.test.payrun.io//
@@ -38,11 +38,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/payrun/templatesbankaccount-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/payrun/templatesbankaccount-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/payrun/templatesbankaccount-get-openapi.md
-- name: Pay Run.IO
-  x-api-slug: pay-run-io
-  description: open-scableable-transparent-payroll-api-
+- name: Pay Run.IO - Gets the bank account template
+  x-api-slug: templatesbankaccount-get
+  description: Return the bank account data object template
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
   humanURL: http://www.payrun.io
   baseURL: https://api.test.payrun.io//
@@ -53,21 +51,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/payrun/templatesbankaccount-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/payrun/templatesbankaccount-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/payrun/templatesbankaccount-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/payrun/templatesbankaccount-get-openapi.md
-- name: Pay Run.IO
-  x-api-slug: pay-run-io
-  description: An open, scalable, transparent and HMRC accredited payroll API. Put
-    the power of payroll into your application today.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
-  humanURL: http://www.payrun.io
-  baseURL: https://api.test.payrun.io//
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/payrun/openapi.md
 x-common:
 - type: x-website
   url: http://www.payrun.io

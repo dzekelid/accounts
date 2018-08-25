@@ -14,14 +14,16 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/apis.md
 specificationVersion: "0.14"
 apis:
-- name: SalesLoft
-  x-api-slug: salesloft
-  description: salesloft-helps-transform-sales-teams-into-modern-sales-organizations---converting-more-target-accounts-into-customer-accounts
+- name: SalesLoft - List accounts
+  x-api-slug: v2accounts-json-get
+  description: |-
+    Fetches multiple account records. The records can be filtered, paged, and sorted according to
+    the respective parameters.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png
   humanURL: http://salesloft.com
   baseURL: https://api.salesloft.com//
@@ -31,408 +33,180 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-openapi.md
-- name: SalesLoft
-  x-api-slug: salesloft
-  description: salesloft-helps-transform-sales-teams-into-modern-sales-organizations---converting-more-target-accounts-into-customer-accounts
+- name: SalesLoft - Create an account
+  x-api-slug: v2accounts-json-post
+  description: |-
+    Creates an account.
+
+    "domain" must be unique on the current team.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png
   humanURL: http://salesloft.com
   baseURL: https://api.salesloft.com//
   tags: Sales, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-- name: SalesLoft
-  x-api-slug: salesloft
-  description: salesloft-helps-transform-sales-teams-into-modern-sales-organizations---converting-more-target-accounts-into-customer-accounts
+- name: SalesLoft - Delete an account
+  x-api-slug: v2accountsid-json-delete
+  description: |-
+    Deletes an account. This operation is not reversible without contacting support.
+    This operation can be called multiple times successfully.
+
+    Deleting an account will remove all connected people from that account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png
   humanURL: http://salesloft.com
   baseURL: https://api.salesloft.com//
   tags: Sales, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-- name: SalesLoft
-  x-api-slug: salesloft
-  description: salesloft-helps-transform-sales-teams-into-modern-sales-organizations---converting-more-target-accounts-into-customer-accounts
+- name: SalesLoft - Fetch an account
+  x-api-slug: v2accountsid-json-get
+  description: Fetches an account, by ID only.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png
   humanURL: http://salesloft.com
   baseURL: https://api.salesloft.com//
   tags: Sales, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-openapi.md
-- name: SalesLoft
-  x-api-slug: salesloft
-  description: salesloft-helps-transform-sales-teams-into-modern-sales-organizations---converting-more-target-accounts-into-customer-accounts
+- name: SalesLoft - Update an existing Account
+  x-api-slug: v2accountsid-json-put
+  description: |-
+    Updates an account.
+
+    "domain" must be unique on the current team.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png
   humanURL: http://salesloft.com
   baseURL: https://api.salesloft.com//
   tags: Sales, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-openapi.md
-- name: SalesLoft
-  x-api-slug: salesloft
-  description: salesloft-helps-transform-sales-teams-into-modern-sales-organizations---converting-more-target-accounts-into-customer-accounts
+- name: SalesLoft - Create an account
+  x-api-slug: v2accounts-json-post
+  description: |-
+    Creates an account.
+
+    "domain" must be unique on the current team.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png
   humanURL: http://salesloft.com
   baseURL: https://api.salesloft.com//
   tags: Sales, Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-- name: SalesLoft
-  x-api-slug: salesloft
-  description: salesloft-helps-transform-sales-teams-into-modern-sales-organizations---converting-more-target-accounts-into-customer-accounts
+- name: SalesLoft - Create an account
+  x-api-slug: v2accounts-json-post
+  description: |-
+    Creates an account.
+
+    "domain" must be unique on the current team.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png
   humanURL: http://salesloft.com
   baseURL: https://api.salesloft.com//
   tags: Sales, Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-- name: SalesLoft
-  x-api-slug: salesloft
-  description: salesloft-helps-transform-sales-teams-into-modern-sales-organizations---converting-more-target-accounts-into-customer-accounts
+- name: SalesLoft - Delete an account
+  x-api-slug: v2accountsid-json-delete
+  description: |-
+    Deletes an account. This operation is not reversible without contacting support.
+    This operation can be called multiple times successfully.
+
+    Deleting an account will remove all connected people from that account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png
   humanURL: http://salesloft.com
   baseURL: https://api.salesloft.com//
   tags: Sales, Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-- name: SalesLoft
-  x-api-slug: salesloft
-  description: salesloft-helps-transform-sales-teams-into-modern-sales-organizations---converting-more-target-accounts-into-customer-accounts
+- name: SalesLoft - Delete an account
+  x-api-slug: v2accountsid-json-delete
+  description: |-
+    Deletes an account. This operation is not reversible without contacting support.
+    This operation can be called multiple times successfully.
+
+    Deleting an account will remove all connected people from that account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png
   humanURL: http://salesloft.com
   baseURL: https://api.salesloft.com//
   tags: Sales, Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-- name: SalesLoft
-  x-api-slug: salesloft
-  description: salesloft-helps-transform-sales-teams-into-modern-sales-organizations---converting-more-target-accounts-into-customer-accounts
+- name: SalesLoft - Fetch an account
+  x-api-slug: v2accountsid-json-get
+  description: Fetches an account, by ID only.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png
   humanURL: http://salesloft.com
   baseURL: https://api.salesloft.com//
   tags: Sales, Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-openapi.md
-- name: SalesLoft
-  x-api-slug: salesloft
-  description: salesloft-helps-transform-sales-teams-into-modern-sales-organizations---converting-more-target-accounts-into-customer-accounts
+- name: SalesLoft - Fetch an account
+  x-api-slug: v2accountsid-json-get
+  description: Fetches an account, by ID only.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png
   humanURL: http://salesloft.com
   baseURL: https://api.salesloft.com//
   tags: Sales, Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-openapi.md
-- name: SalesLoft
-  x-api-slug: salesloft
-  description: salesloft-helps-transform-sales-teams-into-modern-sales-organizations---converting-more-target-accounts-into-customer-accounts
+- name: SalesLoft - Update an existing Account
+  x-api-slug: v2accountsid-json-put
+  description: |-
+    Updates an account.
+
+    "domain" must be unique on the current team.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png
   humanURL: http://salesloft.com
   baseURL: https://api.salesloft.com//
   tags: Sales, Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-openapi.md
-- name: SalesLoft
-  x-api-slug: salesloft
-  description: salesloft-helps-transform-sales-teams-into-modern-sales-organizations---converting-more-target-accounts-into-customer-accounts
+- name: SalesLoft - Update an existing Account
+  x-api-slug: v2accountsid-json-put
+  description: |-
+    Updates an account.
+
+    "domain" must be unique on the current team.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png
   humanURL: http://salesloft.com
   baseURL: https://api.salesloft.com//
   tags: Sales, Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accounts-json-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/v2accountsid-json-put-openapi.md
-- name: SalesLoft
-  x-api-slug: salesloft
-  description: SalesLoft, the leading sales engagement platform, transforms the way
-    sellers engage with their customers by delivering a better selling experience.
-    Our sales engagement platform helps teams set and execute on a cadence of phone,
-    email, and social communications to convert more target accounts into customer
-    accounts. The platform equips sales leaders with new capabilities to test, learn
-    and adapt to ensure their sales reps execute on the most effective selling process
-    for their account-based approach. SalesLoft delivers access to an extensive ecosystem
-    of 3rd party integrations allowing teams to perform all their sales engagement
-    from a single platform.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png
-  humanURL: http://salesloft.com
-  baseURL: https://api.salesloft.com//
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/salesloft/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://salesforce.api.gallery.streamdata.io

@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencod
 x-kinRank: "7"
 x-alexaRank: "596400"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Zencoder API
-  x-api-slug: zencoder-api
-  description: ""
+- name: Zencoder - Get Account Details
+  x-api-slug: account-get
+  description: Get Account Details
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
   baseURL: https://app.zencoder.com//api/v2
@@ -25,72 +25,48 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-- name: Zencoder API
-  x-api-slug: zencoder-api
-  description: ""
+- name: Zencoder - Create an Account
+  x-api-slug: account-post
+  description: Create an Account
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
   baseURL: https://app.zencoder.com//api/v2
   tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
     Enterprise, internet, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-- name: Zencoder API
-  x-api-slug: zencoder-api
-  description: ""
+- name: Zencoder - Integration Mode
+  x-api-slug: accountintegration-put
+  description: Integration Mode
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
   baseURL: https://app.zencoder.com//api/v2
   tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
     Enterprise, internet, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-openapi.md
-- name: Zencoder API
-  x-api-slug: zencoder-api
-  description: ""
+- name: Zencoder - Integration Mode - Live
+  x-api-slug: accountlive-put
+  description: Integration Mode - Live
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
   baseURL: https://app.zencoder.com//api/v2
   tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
     Enterprise, internet, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-openapi.md
-- name: Zencoder API
-  x-api-slug: zencoder-api
-  description: ""
+- name: Zencoder - Get Account Details
+  x-api-slug: account-get
+  description: Get Account Details
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
   baseURL: https://app.zencoder.com//api/v2
@@ -101,23 +77,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-- name: Zencoder API
-  x-api-slug: zencoder-api
-  description: ""
+- name: Zencoder - Get Account Details
+  x-api-slug: account-get
+  description: Get Account Details
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
   baseURL: https://app.zencoder.com//api/v2
@@ -128,25 +90,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-- name: Zencoder API
-  x-api-slug: zencoder-api
-  description: ""
+- name: Zencoder - Create an Account
+  x-api-slug: account-post
+  description: Create an Account
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
   baseURL: https://app.zencoder.com//api/v2
@@ -154,30 +100,12 @@ apis:
     Enterprise, internet, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-- name: Zencoder API
-  x-api-slug: zencoder-api
-  description: ""
+- name: Zencoder - Create an Account
+  x-api-slug: account-post
+  description: Create an Account
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
   baseURL: https://app.zencoder.com//api/v2
@@ -185,32 +113,12 @@ apis:
     Enterprise, internet, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-- name: Zencoder API
-  x-api-slug: zencoder-api
-  description: ""
+- name: Zencoder - Integration Mode
+  x-api-slug: accountintegration-put
+  description: Integration Mode
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
   baseURL: https://app.zencoder.com//api/v2
@@ -218,34 +126,12 @@ apis:
     Enterprise, internet, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-openapi.md
-- name: Zencoder API
-  x-api-slug: zencoder-api
-  description: ""
+- name: Zencoder - Integration Mode
+  x-api-slug: accountintegration-put
+  description: Integration Mode
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
   baseURL: https://app.zencoder.com//api/v2
@@ -253,36 +139,12 @@ apis:
     Enterprise, internet, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-openapi.md
-- name: Zencoder API
-  x-api-slug: zencoder-api
-  description: ""
+- name: Zencoder - Integration Mode - Live
+  x-api-slug: accountlive-put
+  description: Integration Mode - Live
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
   baseURL: https://app.zencoder.com//api/v2
@@ -290,38 +152,12 @@ apis:
     Enterprise, internet, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-openapi.md
-- name: Zencoder API
-  x-api-slug: zencoder-api
-  description: ""
+- name: Zencoder - Integration Mode - Live
+  x-api-slug: accountlive-put
+  description: Integration Mode - Live
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
   baseURL: https://app.zencoder.com//api/v2
@@ -329,52 +165,9 @@ apis:
     Enterprise, internet, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/account-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountintegration-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/accountlive-put-openapi.md
-- name: Zencoder API
-  x-api-slug: zencoder-api
-  description: Zencoders Video Encoding API allows you to seamlessly integrate your
-    application with Zencoder???s extremely fast and scalable encoding platform. Our
-    RESTful API is extensively documented with easy-to-use guides and detailed descriptions,
-    as well as thoroughly tested code libraries and code examples for every encoding
-    setting. Backed by an uptime SLA and live support with real encoding engineers,
-    integrating with Zencoder couldn???t be easier.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
-  humanURL: http://zencoder.com/
-  baseURL: https://app.zencoder.com//api/v2
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/zencoder/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://youtube.api.gallery.streamdata.io

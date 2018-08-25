@@ -11,82 +11,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/google-cloud-storage/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Google Cloud Storage
-  x-api-slug: google-cloud-storage
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-storage-unified-object-storage-2x.png
-  humanURL: https://cloud.google.com/storage/
-  baseURL: https:///
-  tags: Google APIs, Cloud, Storage, Stack Network, API Service Provider, API Provider,
-    Profiles, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/google-cloud-storage/v1googleserviceaccountsprojectid-get-openapi.md
-- name: Google Cloud Storage
-  x-api-slug: google-cloud-storage
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-storage-unified-object-storage-2x.png
-  humanURL: https://cloud.google.com/storage/
-  baseURL: https:///
-  tags: Google APIs, Cloud, Storage, Stack Network, API Service Provider, API Provider,
-    Profiles, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/google-cloud-storage/v1googleserviceaccountsprojectid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/google-cloud-storage/v1getgoogleserviceaccount-get-openapi.md
-- name: Google Cloud Storage
-  x-api-slug: google-cloud-storage
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-storage-unified-object-storage-2x.png
-  humanURL: https://cloud.google.com/storage/
-  baseURL: https:///
-  tags: Google APIs, Cloud, Storage, Stack Network, API Service Provider, API Provider,
-    Profiles, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/google-cloud-storage/v1googleserviceaccountsprojectid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/google-cloud-storage/v1getgoogleserviceaccount-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/google-cloud-storage/v1googleserviceaccountsprojectid-get-openapi.md
-- name: Google Cloud Storage
-  x-api-slug: google-cloud-storage
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-storage-unified-object-storage-2x.png
-  humanURL: https://cloud.google.com/storage/
-  baseURL: https:///
-  tags: Google APIs, Cloud, Storage, Stack Network, API Service Provider, API Provider,
-    Profiles, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/google-cloud-storage/v1googleserviceaccountsprojectid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/google-cloud-storage/v1getgoogleserviceaccount-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/google-cloud-storage/v1googleserviceaccountsprojectid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/google-cloud-storage/v1getgoogleserviceaccount-get-openapi.md
-- name: Google Cloud Storage
-  x-api-slug: google-cloud-storage
-  description: Google Cloud Storage is unified object storage for developers and enterprises,
-    from live data serving to data analytics/ML to data archiving. Google Cloud Storage
-    allows world-wide storage and retrieval of any amount of data at any time. You
-    can use Google Cloud Storage for a range of scenarios including serving website
-    content, storing data for archival and disaster recovery, or distributing large
-    data objects to users via direct download.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-storage-unified-object-storage-2x.png
-  humanURL: https://cloud.google.com/storage/
-  baseURL: https:///
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/google-cloud-storage/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://google.cloud.sql.api.gallery.streamdata.io

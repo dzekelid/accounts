@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jp
 x-kinRank: "8"
 x-alexaRank: "20789"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Dyn
-  x-api-slug: dyn
-  description: ""
+- name: Dyn - Retrieve email sub-accounts
+  x-api-slug: accounts-get
+  description: Retrieving a list of up to 25 Email Sub-Accounts
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dynect.net
   baseURL: https:///
@@ -26,9 +26,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accounts-get-openapi.md
-- name: Dyn
-  x-api-slug: dyn
-  description: ""
+- name: Dyn - Create an Email Sub-Account (API)
+  x-api-slug: accounts-post
+  description: Creating an Email Sub-Account using the API requires specific syntax
+    for the REST API.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dynect.net
   baseURL: https:///
@@ -36,17 +37,13 @@ apis:
     Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
     Emails, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accounts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accounts-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accounts-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accounts-post-openapi.md
-- name: Dyn
-  x-api-slug: dyn
-  description: ""
+- name: Dyn - Updating an Email Sub-Account
+  x-api-slug: accounts-put
+  description: Updating an Email Sub-Account
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dynect.net
   baseURL: https:///
@@ -54,21 +51,13 @@ apis:
     Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
     Emails, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accounts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accounts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accounts-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accounts-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accounts-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accounts-put-openapi.md
-- name: Dyn
-  x-api-slug: dyn
-  description: ""
+- name: Dyn - Deleting an Email Sub-Account
+  x-api-slug: accountsdelete-post
+  description: Deleting an Email Sub-Account
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dynect.net
   baseURL: https:///
@@ -76,33 +65,10 @@ apis:
     Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
     Emails, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accounts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accounts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accounts-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accounts-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accounts-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accounts-put-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accountsdelete-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/accountsdelete-post-openapi.md
-- name: Dyn
-  x-api-slug: dyn
-  description: Dyn is home to the worlds most trusted DNS product suite and the worlds
-    most reputable Email Deliverability Service.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dynect.net
-  baseURL: https:///
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dyn/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://duckduckgo.api.gallery.streamdata.io

@@ -7,14 +7,15 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/586-elasti
 x-kinRank: "8"
 x-alexaRank: "50338"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/elastic-email/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Elastic Email SMTP API
-  x-api-slug: elastic-email-smtp-api
-  description: api-for-sending-and-management-email-
+- name: Elastic Email SMTP API - Account Details
+  x-api-slug: maileraccountdetails-get
+  description: The Account Details command is used to determine how much credit you
+    have left.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/586-elastic-email.jpg
   humanURL: http://elasticemail.com
   baseURL: http://api.elasticemail.com//
@@ -25,9 +26,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/elastic-email/maileraccountdetails-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/elastic-email/maileraccountdetails-get-openapi.md
-- name: Elastic Email SMTP API
-  x-api-slug: elastic-email-smtp-api
-  description: api-for-sending-and-management-email-
+- name: Elastic Email SMTP API - Account Details
+  x-api-slug: maileraccountdetails-get
+  description: The Account Details command is used to determine how much credit you
+    have left.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/586-elastic-email.jpg
   humanURL: http://elasticemail.com
   baseURL: http://api.elasticemail.com//
@@ -38,11 +40,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/elastic-email/maileraccountdetails-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/elastic-email/maileraccountdetails-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/elastic-email/maileraccountdetails-get-openapi.md
-- name: Elastic Email SMTP API
-  x-api-slug: elastic-email-smtp-api
-  description: api-for-sending-and-management-email-
+- name: Elastic Email SMTP API - Account Details
+  x-api-slug: maileraccountdetails-get
+  description: The Account Details command is used to determine how much credit you
+    have left.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/586-elastic-email.jpg
   humanURL: http://elasticemail.com
   baseURL: http://api.elasticemail.com//
@@ -53,24 +54,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/elastic-email/maileraccountdetails-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/elastic-email/maileraccountdetails-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/elastic-email/maileraccountdetails-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/elastic-email/maileraccountdetails-get-openapi.md
-- name: Elastic Email SMTP API
-  x-api-slug: elastic-email-smtp-api
-  description: Elastic Email is a simple, fast email delivery service for your cloud
-    application or marketing needs.  Elastic Email is designed as an SMTP relay for
-    reliable delivery of bulk email marketing or single recipient transactional emails
-    with detailed delivery statistics.  No monthly committments, no minimums, no limits.  Just
-    pay for what you use for as low as  $0.08 / 1000 emails.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/586-elastic-email.jpg
-  humanURL: http://elasticemail.com
-  baseURL: http://api.elasticemail.com//
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/elastic-email/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://ehrscape.api.gallery.streamdata.io

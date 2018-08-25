@@ -9,14 +9,15 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/halifax-bank/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Halifax Bank
-  x-api-slug: halifax-bank
-  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapis-io-apis-for-halifax-bank-
+- name: Halifax Bank - Get Current Personal Accounts
+  x-api-slug: personalcurrentaccounts-get
+  description: This endpoint can contain multiple brands owned by a particular banking
+    group. Each brand can own multiple PCA products.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Halifax_Logo.png
   humanURL: https://www.halifax.co.uk/
   baseURL: https://api.halifax.co.uk/open-banking/v2.1/
@@ -26,19 +27,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/halifax-bank/personalcurrentaccounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/halifax-bank/personalcurrentaccounts-get-openapi.md
-- name: Halifax Bank
-  x-api-slug: halifax-bank
-  description: Halifax is a British bank operating as a trading division of Bank of
-    Scotland, itself a wholly owned subsidiary of Lloyds Banking Group. It is named
-    after the town of Halifax, West Yorkshire where it was founded as a building society
-    in 1853
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Halifax_Logo.png
-  humanURL: https://www.halifax.co.uk/
-  baseURL: https://api.halifax.co.uk/open-banking/v2.1/
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/halifax-bank/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://hacker.news.api.gallery.streamdata.io

@@ -7,68 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-openc
 x-kinRank: "9"
 x-alexaRank: "53526"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/opencorporates/apis.md
 specificationVersion: "0.14"
-apis:
-- name: OpenCorporates
-  x-api-slug: opencorporates
-  description: the-api-for-managing-opencorporates-data-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
-  humanURL: http://opencorporates.com
-  baseURL: ://api.opencorporates.com/v0.4/
-  tags: SMS, Enterprise, Finance, Business Intelligence, Corporate Data, Business,
-    My API Stack, API LIfeyclessss, Target, Business, Stack Network, Technology, SaaS,
-    General Data, Service API, Pedestal
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/opencorporates/account-status-get-openapi.md
-- name: OpenCorporates
-  x-api-slug: opencorporates
-  description: the-api-for-managing-opencorporates-data-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
-  humanURL: http://opencorporates.com
-  baseURL: ://api.opencorporates.com/v0.4/
-  tags: SMS, Enterprise, Finance, Business Intelligence, Corporate Data, Business,
-    My API Stack, API LIfeyclessss, Target, Business, Stack Network, Technology, SaaS,
-    General Data, Service API, Pedestal
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/opencorporates/account-status-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/opencorporates/account-status-get-openapi.md
-- name: OpenCorporates
-  x-api-slug: opencorporates
-  description: the-api-for-managing-opencorporates-data-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
-  humanURL: http://opencorporates.com
-  baseURL: ://api.opencorporates.com/v0.4/
-  tags: SMS, Enterprise, Finance, Business Intelligence, Corporate Data, Business,
-    My API Stack, API LIfeyclessss, Target, Business, Stack Network, Technology, SaaS,
-    General Data, Service API, Pedestal
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/opencorporates/account-status-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/opencorporates/account-status-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/opencorporates/account-status-get-openapi.md
-- name: OpenCorporates
-  x-api-slug: opencorporates
-  description: OpenCorporates is a database of corporate data. OpenCorporates offers
-    users the ability to search for information on 30 million corporations from around
-    the world. Users can also search by type of corporation. The OpenCorporates API
-    allows developers to access and integrate the data and functionality of OpenCorporates
-    with other applications. Some example API methods include searching and retrieving
-    information on corporation by type, jurisdiction, and company ID.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
-  humanURL: http://opencorporates.com
-  baseURL: ://api.opencorporates.com/v0.4/
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/opencorporates/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://opencage.api.gallery.streamdata.io

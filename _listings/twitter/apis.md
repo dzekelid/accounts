@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "12"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Twitter
-  x-api-slug: twitter
-  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
+- name: Twitter - Get Account Settings
+  x-api-slug: accountsettings-get
+  description: returns settings for user
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
@@ -27,9 +27,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
+- name: Twitter - Update  Account Settings
+  x-api-slug: accountsettings-post
+  description: updates user's settings
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
@@ -38,17 +38,13 @@ apis:
     Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
     Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
+- name: Twitter - Update Account Deliver Service
+  x-api-slug: accountupdate-delivery-device-post
+  description: sets which device Twitter delivers updates to for user
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
@@ -57,21 +53,13 @@ apis:
     Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
     Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
+- name: Twitter - Update Profile
+  x-api-slug: accountupdate-profile-post
+  description: sets values that users ar eable to set under Account tab
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
@@ -80,25 +68,13 @@ apis:
     Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
     Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
+- name: Twitter - Update Profile Background Image
+  x-api-slug: accountupdate-profile-background-image-post
+  description: updates user's profile background image
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
@@ -107,29 +83,13 @@ apis:
     Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
     Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
+- name: Twitter - Update Profile Colors
+  x-api-slug: accountupdate-profile-colors-post
+  description: sets one or more hex values that controls color scheme
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
@@ -138,33 +98,13 @@ apis:
     Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
     Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
+- name: Twitter - Update Profile Image
+  x-api-slug: accountupdate-profile-image-post
+  description: updates user's profile image
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
@@ -173,37 +113,13 @@ apis:
     Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
     Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
+- name: Twitter - Get Account Settings
+  x-api-slug: accountsettings-get
+  description: returns settings for user
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
@@ -216,35 +132,99 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
+- name: Twitter - Update  Account Settings
+  x-api-slug: accountsettings-post
+  description: updates user's settings
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  humanURL: https://twitter.com/
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
+  properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
+- name: Twitter - Update Account Deliver Service
+  x-api-slug: accountupdate-delivery-device-post
+  description: sets which device Twitter delivers updates to for user
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  humanURL: https://twitter.com/
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
+  properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
+- name: Twitter - Update Profile
+  x-api-slug: accountupdate-profile-post
+  description: sets values that users ar eable to set under Account tab
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  humanURL: https://twitter.com/
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
+  properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-openapi.md
+- name: Twitter - Update Profile Background Image
+  x-api-slug: accountupdate-profile-background-image-post
+  description: updates user's profile background image
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  humanURL: https://twitter.com/
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
+  properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
+- name: Twitter - Update Profile Colors
+  x-api-slug: accountupdate-profile-colors-post
+  description: sets one or more hex values that controls color scheme
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  humanURL: https://twitter.com/
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
+  properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
+- name: Twitter - Update Profile Image
+  x-api-slug: accountupdate-profile-image-post
+  description: updates user's profile image
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  humanURL: https://twitter.com/
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
+  properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
+- name: Twitter - Get Account Settings
+  x-api-slug: accountsettings-get
+  description: returns settings for user
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
@@ -257,37 +237,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
+- name: Twitter - Update  Account Settings
+  x-api-slug: accountsettings-post
+  description: updates user's settings
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
@@ -297,362 +249,9 @@ apis:
     Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
-  humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1
-  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
-    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
-    Streams
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
-  humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1
-  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
-    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
-    Streams
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
-  humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1
-  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
-    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
-    Streams
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
-  humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1
-  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
-    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
-    Streams
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
-  humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1
-  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
-    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
-    Streams
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
-  humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1
-  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
-    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
-    Streams
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/accountsettings-post-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: From breaking news and entertainment to sports and politics, get the
-    full story with all the live commentary.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
-  humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/twitter/openapi.md
 x-common:
 - type: x--net-library
   url: https://tweetinvi.codeplex.com/

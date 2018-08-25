@@ -7,36 +7,15 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotome
 x-kinRank: "7"
 x-alexaRank: "7422"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Go To Assist Seeit
-  x-api-slug: go-to-assist-seeit
-  description: Citrix enables business mobility through the secure delivery of apps
-    and data to any device on any network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
-  humanURL: https://citrixonline.com
-  baseURL: https://api.citrixonline.com//seeit/v1
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/openapi.md
-- name: Go To Meeting
-  x-api-slug: go-to-meeting
-  description: Citrix enables business mobility through the secure delivery of apps
-    and data to any device on any network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
-  humanURL: https://citrixonline.com
-  baseURL: https://api.citrixonline.com//G2M/rest
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/openapi.md
-- name: Go To Training
-  x-api-slug: go-to-training
-  description: the-gototraining-api-enables-developers-to-use-the-stable-and-robust-gototraining-functionality-as-the-basis-for-online-trainings-in-a-proprietary-learning-management-system--the-gototraining-apis-provide-the-ability-to-access-the-scheduling-registration-management-and-reporting-functions-of-gototraining-from-external-applications--with-the-ability-to-tightly-integrate-gototraining-into-your-learning-infrastructure-you-can-offer-your-learners-a-seamless-user-experience-and-provide-them-with-a-market-leading-virtual-classroom-environment-
+- name: 'Go To Training - DEPRECATED: Get Organizers'
+  x-api-slug: accountsaccountkeyorganizers-get
+  description: 'DEPRECATED: Please use the Admin API call ''Get all users'' instead.
+    For details see https://developer.citrixonline.com/get-all-users.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
   humanURL: https://citrixonline.com
   baseURL: https://api.citrixonline.com//G2T/rest
@@ -48,9 +27,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeyorganizers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeyorganizers-get-openapi.md
-- name: Go To Training
-  x-api-slug: go-to-training
-  description: the-gototraining-api-enables-developers-to-use-the-stable-and-robust-gototraining-functionality-as-the-basis-for-online-trainings-in-a-proprietary-learning-management-system--the-gototraining-apis-provide-the-ability-to-access-the-scheduling-registration-management-and-reporting-functions-of-gototraining-from-external-applications--with-the-ability-to-tightly-integrate-gototraining-into-your-learning-infrastructure-you-can-offer-your-learners-a-seamless-user-experience-and-provide-them-with-a-market-leading-virtual-classroom-environment-
+- name: 'Go To Training - DEPRECATED: Get Organizers'
+  x-api-slug: accountsaccountkeyorganizers-get
+  description: 'DEPRECATED: Please use the Admin API call ''Get all users'' instead.
+    For details see https://developer.citrixonline.com/get-all-users.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
   humanURL: https://citrixonline.com
   baseURL: https://api.citrixonline.com//G2T/rest
@@ -62,11 +42,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeyorganizers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeyorganizers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeyorganizers-get-openapi.md
-- name: Go To Training
-  x-api-slug: go-to-training
-  description: the-gototraining-api-enables-developers-to-use-the-stable-and-robust-gototraining-functionality-as-the-basis-for-online-trainings-in-a-proprietary-learning-management-system--the-gototraining-apis-provide-the-ability-to-access-the-scheduling-registration-management-and-reporting-functions-of-gototraining-from-external-applications--with-the-ability-to-tightly-integrate-gototraining-into-your-learning-infrastructure-you-can-offer-your-learners-a-seamless-user-experience-and-provide-them-with-a-market-leading-virtual-classroom-environment-
+- name: 'Go To Training - DEPRECATED: Get Organizers'
+  x-api-slug: accountsaccountkeyorganizers-get
+  description: 'DEPRECATED: Please use the Admin API call ''Get all users'' instead.
+    For details see https://developer.citrixonline.com/get-all-users.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
   humanURL: https://citrixonline.com
   baseURL: https://api.citrixonline.com//G2T/rest
@@ -78,24 +57,12 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeyorganizers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeyorganizers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeyorganizers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeyorganizers-get-openapi.md
-- name: Go To Training
-  x-api-slug: go-to-training
-  description: Citrix enables business mobility through the secure delivery of apps
-    and data to any device on any network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
-  humanURL: https://citrixonline.com
-  baseURL: https://api.citrixonline.com//G2T/rest
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/openapi.md
-- name: Go To Webinar
-  x-api-slug: go-to-webinar
-  description: the-gotowebinar-api-provides-seamless-integration-of-webinar-registrant-and-attendee-data-into-your-existing-infrastructure-or-thirdparty-applications--the-ability-to-register-participants-as-well-as-pull-lists-of-registrants-and-attendees-for-a-webinar-allows-organizers-to-manage-the-flow-of-information-between-their-primary-applications-without-manual-intervention-
+- name: Go To Webinar - Get all webinars for an account
+  x-api-slug: accountsaccountkeywebinars-get
+  description: Retrieves the list of webinars for an account within a given date range.
+    __*Page*__ and __*size*__ parameters are optional. Default __*page*__ is 0 and
+    default __*size*__ is 20. For technical reasons, this call cannot be executed
+    from this documentation. Please use the curl command to execute it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
   humanURL: https://citrixonline.com
   baseURL: https://api.citrixonline.com//G2W/rest
@@ -107,9 +74,12 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeywebinars-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeywebinars-get-openapi.md
-- name: Go To Webinar
-  x-api-slug: go-to-webinar
-  description: the-gotowebinar-api-provides-seamless-integration-of-webinar-registrant-and-attendee-data-into-your-existing-infrastructure-or-thirdparty-applications--the-ability-to-register-participants-as-well-as-pull-lists-of-registrants-and-attendees-for-a-webinar-allows-organizers-to-manage-the-flow-of-information-between-their-primary-applications-without-manual-intervention-
+- name: Go To Webinar - Get all webinars for an account
+  x-api-slug: accountsaccountkeywebinars-get
+  description: Retrieves the list of webinars for an account within a given date range.
+    __*Page*__ and __*size*__ parameters are optional. Default __*page*__ is 0 and
+    default __*size*__ is 20. For technical reasons, this call cannot be executed
+    from this documentation. Please use the curl command to execute it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
   humanURL: https://citrixonline.com
   baseURL: https://api.citrixonline.com//G2W/rest
@@ -121,11 +91,12 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeywebinars-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeywebinars-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeywebinars-get-openapi.md
-- name: Go To Webinar
-  x-api-slug: go-to-webinar
-  description: the-gotowebinar-api-provides-seamless-integration-of-webinar-registrant-and-attendee-data-into-your-existing-infrastructure-or-thirdparty-applications--the-ability-to-register-participants-as-well-as-pull-lists-of-registrants-and-attendees-for-a-webinar-allows-organizers-to-manage-the-flow-of-information-between-their-primary-applications-without-manual-intervention-
+- name: Go To Webinar - Get all webinars for an account
+  x-api-slug: accountsaccountkeywebinars-get
+  description: Retrieves the list of webinars for an account within a given date range.
+    __*Page*__ and __*size*__ parameters are optional. Default __*page*__ is 0 and
+    default __*size*__ is 20. For technical reasons, this call cannot be executed
+    from this documentation. Please use the curl command to execute it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
   humanURL: https://citrixonline.com
   baseURL: https://api.citrixonline.com//G2W/rest
@@ -137,32 +108,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeywebinars-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeywebinars-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeywebinars-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeywebinars-get-openapi.md
-- name: Go To Webinar
-  x-api-slug: go-to-webinar
-  description: Citrix enables business mobility through the secure delivery of apps
-    and data to any device on any network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
-  humanURL: https://citrixonline.com
-  baseURL: https://api.citrixonline.com//G2W/rest
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/openapi.md
-- name: SCIM
-  x-api-slug: scim
-  description: Citrix enables business mobility through the secure delivery of apps
-    and data to any device on any network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
-  humanURL: https://citrixonline.com
-  baseURL: https://api.citrixonline.com//identity/v1
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.url.shortener.api.gallery.streamdata.io

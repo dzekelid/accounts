@@ -20,14 +20,15 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-cloudformation/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS CloudFormation API
-  x-api-slug: aws-cloudformation-api
-  description: ""
+- name: AWS CloudFormation API - Describe Account Limits
+  x-api-slug: actiondescribeaccountlimits-get
+  description: Retrieves your account's AWS CloudFormation limits, such as the maximum
+    number of stacks that you can create in your account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
   humanURL: https://aws.amazon.com/cloudformation/
   baseURL: :///
@@ -39,9 +40,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-cloudformation/actiondescribeaccountlimits-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-cloudformation/actiondescribeaccountlimits-get-openapi.md
-- name: AWS CloudFormation API
-  x-api-slug: aws-cloudformation-api
-  description: ""
+- name: AWS CloudFormation API - Describe Account Limits
+  x-api-slug: actiondescribeaccountlimits-get
+  description: Retrieves your account's AWS CloudFormation limits, such as the maximum
+    number of stacks that you can create in your account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
   humanURL: https://aws.amazon.com/cloudformation/
   baseURL: :///
@@ -53,11 +55,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-cloudformation/actiondescribeaccountlimits-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-cloudformation/actiondescribeaccountlimits-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-cloudformation/actiondescribeaccountlimits-get-openapi.md
-- name: AWS CloudFormation API
-  x-api-slug: aws-cloudformation-api
-  description: ""
+- name: AWS CloudFormation API - Describe Account Limits
+  x-api-slug: actiondescribeaccountlimits-get
+  description: Retrieves your account's AWS CloudFormation limits, such as the maximum
+    number of stacks that you can create in your account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
   humanURL: https://aws.amazon.com/cloudformation/
   baseURL: :///
@@ -69,13 +70,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-cloudformation/actiondescribeaccountlimits-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-cloudformation/actiondescribeaccountlimits-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-cloudformation/actiondescribeaccountlimits-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-cloudformation/actiondescribeaccountlimits-get-openapi.md
-- name: AWS CloudFormation API
-  x-api-slug: aws-cloudformation-api
-  description: ""
+- name: AWS CloudFormation API - Describe Account Limits
+  x-api-slug: actiondescribeaccountlimits-get
+  description: Retrieves your account's AWS CloudFormation limits, such as the maximum
+    number of stacks that you can create in your account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
   humanURL: https://aws.amazon.com/cloudformation/
   baseURL: :///
@@ -87,36 +85,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-cloudformation/actiondescribeaccountlimits-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-cloudformation/actiondescribeaccountlimits-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-cloudformation/actiondescribeaccountlimits-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-cloudformation/actiondescribeaccountlimits-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-cloudformation/actiondescribeaccountlimits-get-openapi.md
-- name: AWS CloudFormation API
-  x-api-slug: aws-cloudformation-api
-  description: AWS CloudFormation gives developers and systems administrators an easy
-    way to create and manage a collection of related AWS resources, provisioning and
-    updating them in an orderly and predictable fashion.You can use AWS CloudFormations?sample
-    templates?or create your own templates to describe the AWS resources, and any
-    associated dependencies or runtime parameters, required to run your application.
-    You do not need to figure out the order for provisioning AWS services or the subtleties
-    of making those dependencies work. CloudFormation takes care of this for you.
-    After the AWS resources are deployed, you can modify and update them in a controlled
-    and predictable way, in effect applying version control to your AWS infrastructure
-    the same way you do with your software. You can also visualize your templates
-    as diagrams and edit them using a drag-and-drop interface with the?AWS CloudFormation
-    Designer.You can deploy and update a template and its associated collection of
-    resources (called a stack) by using the AWS Management Console, AWS Command Line
-    Interface, or APIs. CloudFormation is available at no additional charge, and you
-    pay only for the AWS resources needed to run your applications.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
-  humanURL: https://aws.amazon.com/cloudformation/
-  baseURL: :///
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-cloudformation/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.certificate.manager.api.gallery.streamdata.io

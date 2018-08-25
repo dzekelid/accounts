@@ -8,29 +8,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1806-easyc
 x-kinRank: "9"
 x-alexaRank: "181380"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/easycron/apis.md
 specificationVersion: "0.14"
 apis:
-- name: EasyCron
-  x-api-slug: easycron
-  description: EasyCron is a tool for scheduling calls to specified URLs by time or
-    time interval. Registered users can manage jobs and set them according to their
-    own timezone. Premium users can also receive email notifications about a job&#039;s
-    execution and view execution logs for each job. The EasyCron API allows users
-    to manage their jobs without having to log in to the EasyCron website. The API
-    takes RESTful calls and responds in JSON format.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1806-easycron.jpg
-  humanURL: http://easycron.com
-  baseURL: https://www.easycron.com//rest
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/easycron/openapi.md
-- name: Easycron API
-  x-api-slug: easycron-api
-  description: all-registered-users-of-easycron-can-utilize-our-api-to-manage-their-cron-jobs-without-logging-in-easycron-com-
+- name: Easycron API - Get the timezone of a user account.
+  x-api-slug: timezone-get
+  description: Get the timezone of a user account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1806-easycron.jpg
   humanURL: http://easycron.com
   baseURL: https://www.easycron.com//rest
@@ -41,9 +26,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/easycron/timezone-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/easycron/timezone-get-openapi.md
-- name: Easycron API
-  x-api-slug: easycron-api
-  description: all-registered-users-of-easycron-can-utilize-our-api-to-manage-their-cron-jobs-without-logging-in-easycron-com-
+- name: Easycron API - Get the timezone of a user account.
+  x-api-slug: timezone-get
+  description: Get the timezone of a user account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1806-easycron.jpg
   humanURL: http://easycron.com
   baseURL: https://www.easycron.com//rest
@@ -54,11 +39,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/easycron/timezone-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/easycron/timezone-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/easycron/timezone-get-openapi.md
-- name: Easycron API
-  x-api-slug: easycron-api
-  description: all-registered-users-of-easycron-can-utilize-our-api-to-manage-their-cron-jobs-without-logging-in-easycron-com-
+- name: Easycron API - Get the timezone of a user account.
+  x-api-slug: timezone-get
+  description: Get the timezone of a user account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1806-easycron.jpg
   humanURL: http://easycron.com
   baseURL: https://www.easycron.com//rest
@@ -69,22 +52,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/easycron/timezone-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/easycron/timezone-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/easycron/timezone-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/easycron/timezone-get-openapi.md
-- name: Easycron API
-  x-api-slug: easycron-api
-  description: EasyCron provides the most stable Cron Job Services. Here you can schedule
-    cron jobs with execution logs, Email notifications, run time predictions and a
-    bunch of other featuers!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1806-easycron.jpg
-  humanURL: http://easycron.com
-  baseURL: https://www.easycron.com//rest
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/easycron/openapi.md
 x-common:
 - type: x-affiliate
   url: https://www.easycron.com/affiliates/program

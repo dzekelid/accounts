@@ -6,14 +6,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runsc
 x-kinRank: "9"
 x-alexaRank: "125183"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/runscope/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Runscope
-  x-api-slug: runscope
-  description: manage-runscope-programmatically-
+- name: Runscope - Get Account
+  x-api-slug: account-get
+  description: Account Resource
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
   humanURL: http://runscope.com
   baseURL: https://api.runscope.com//
@@ -24,9 +24,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/runscope/account-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/runscope/account-get-openapi.md
-- name: Runscope
-  x-api-slug: runscope
-  description: manage-runscope-programmatically-
+- name: Runscope - Get Account
+  x-api-slug: account-get
+  description: Account Resource
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
   humanURL: http://runscope.com
   baseURL: https://api.runscope.com//
@@ -37,11 +37,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/runscope/account-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/runscope/account-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/runscope/account-get-openapi.md
-- name: Runscope
-  x-api-slug: runscope
-  description: manage-runscope-programmatically-
+- name: Runscope - Get Account
+  x-api-slug: account-get
+  description: Account Resource
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
   humanURL: http://runscope.com
   baseURL: https://api.runscope.com//
@@ -52,20 +50,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/runscope/account-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/runscope/account-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/runscope/account-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/runscope/account-get-openapi.md
-- name: Runscope
-  x-api-slug: runscope
-  description: API performance monitoring. Everything is going to be 200 OK
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: http://runscope.com
-  baseURL: https://api.runscope.com//
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/runscope/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://royal.bank.of.scotland.api.gallery.streamdata.io

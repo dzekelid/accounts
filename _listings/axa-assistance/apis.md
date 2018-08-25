@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-
 x-kinRank: "8"
 x-alexaRank: "2107685"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/axa-assistance/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AXA Assistance
-  x-api-slug: axa-assistance
-  description: axa-assistance-is-a-worldwide-specialist-for-car-insurance-travel-health-and-home-services--trust-in-axa-assistance-for-your-insurance
+- name: AXA Assistance - Resends the confirmation email to an identity account
+  x-api-slug: userv1identitiesregisterconfirmresend-post
+  description: Resends the confirmation email to an identity account
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
   humanURL: https://www.axa-assistance.com
   baseURL: https://sandbox.api.axa-assistance.com//
@@ -25,9 +25,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/axa-assistance/userv1identitiesregisterconfirmresend-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/axa-assistance/userv1identitiesregisterconfirmresend-post-openapi.md
-- name: AXA Assistance
-  x-api-slug: axa-assistance
-  description: axa-assistance-is-a-worldwide-specialist-for-car-insurance-travel-health-and-home-services--trust-in-axa-assistance-for-your-insurance
+- name: AXA Assistance - Resends the confirmation email to an identity account
+  x-api-slug: userv1identitiesregisterconfirmresend-post
+  description: Resends the confirmation email to an identity account
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
   humanURL: https://www.axa-assistance.com
   baseURL: https://sandbox.api.axa-assistance.com//
@@ -38,11 +38,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/axa-assistance/userv1identitiesregisterconfirmresend-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/axa-assistance/userv1identitiesregisterconfirmresend-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/axa-assistance/userv1identitiesregisterconfirmresend-post-openapi.md
-- name: AXA Assistance
-  x-api-slug: axa-assistance
-  description: axa-assistance-is-a-worldwide-specialist-for-car-insurance-travel-health-and-home-services--trust-in-axa-assistance-for-your-insurance
+- name: AXA Assistance - Resends the confirmation email to an identity account
+  x-api-slug: userv1identitiesregisterconfirmresend-post
+  description: Resends the confirmation email to an identity account
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
   humanURL: https://www.axa-assistance.com
   baseURL: https://sandbox.api.axa-assistance.com//
@@ -53,21 +51,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/axa-assistance/userv1identitiesregisterconfirmresend-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/axa-assistance/userv1identitiesregisterconfirmresend-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/axa-assistance/userv1identitiesregisterconfirmresend-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/axa-assistance/userv1identitiesregisterconfirmresend-post-openapi.md
-- name: AXA Assistance
-  x-api-slug: axa-assistance
-  description: AXA Assistance is a worldwide specialist for car insurance, travel,
-    health and home services. Trust in Axa Assistance for your insurance!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
-  humanURL: https://www.axa-assistance.com
-  baseURL: https://sandbox.api.axa-assistance.com//
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/axa-assistance/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.xray.api.gallery.streamdata.io

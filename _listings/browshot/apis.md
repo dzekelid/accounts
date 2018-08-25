@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/717-browsh
 x-kinRank: "7"
 x-alexaRank: "1714303"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/browshot/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Browshot
-  x-api-slug: browshot
-  description: take-screenshots-of-any-website-in-real-time
+- name: Browshot - Get information about your account
+  x-api-slug: accountinfo-get
+  description: Get information about your account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/717-browshot-com.jpg
   humanURL: http://browshot.com/
   baseURL: https://api.browshot.com//api/v1
@@ -25,9 +25,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/browshot/accountinfo-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/browshot/accountinfo-get-openapi.md
-- name: Browshot
-  x-api-slug: browshot
-  description: take-screenshots-of-any-website-in-real-time
+- name: Browshot - Get information about your account
+  x-api-slug: accountinfo-get
+  description: Get information about your account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/717-browshot-com.jpg
   humanURL: http://browshot.com/
   baseURL: https://api.browshot.com//api/v1
@@ -38,11 +38,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/browshot/accountinfo-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/browshot/accountinfo-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/browshot/accountinfo-get-openapi.md
-- name: Browshot
-  x-api-slug: browshot
-  description: take-screenshots-of-any-website-in-real-time
+- name: Browshot - Get information about your account
+  x-api-slug: accountinfo-get
+  description: Get information about your account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/717-browshot-com.jpg
   humanURL: http://browshot.com/
   baseURL: https://api.browshot.com//api/v1
@@ -53,22 +51,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/browshot/accountinfo-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/browshot/accountinfo-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/browshot/accountinfo-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/browshot/accountinfo-get-openapi.md
-- name: Browshot
-  x-api-slug: browshot
-  description: 'A service to easily make screenshots of web pages in any screen size,
-    as any device: iPhone, iPad, Android, Nook, PC, etc. Test your site on different
-    devices in many resolutions.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/717-browshot-com.jpg
-  humanURL: http://browshot.com/
-  baseURL: https://api.browshot.com//api/v1
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/browshot/openapi.md
 x-common:
 - type: x-website
   url: http://browshot.com/

@@ -11,14 +11,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordn
 x-kinRank: "8"
 x-alexaRank: "46540"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Wordnik
-  x-api-slug: wordnik
-  description: wordnik-is-the-worlds-biggest-online-english-dictionary-by-number-of-words
+- name: Wordnik - Returns usage statistics for the API account.
+  x-api-slug: account-jsonapitokenstatus-get
+  description: Returns usage statistics for the api account..
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
   humanURL: http://wordnik.com
   baseURL: https://api.wordnik.com//v4
@@ -28,25 +28,21 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-- name: Wordnik
-  x-api-slug: wordnik
-  description: wordnik-is-the-worlds-biggest-online-english-dictionary-by-number-of-words
+- name: Wordnik - Authenticates a User
+  x-api-slug: account-jsonauthenticateusername-get
+  description: Authenticates a user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
   humanURL: http://wordnik.com
   baseURL: https://api.wordnik.com//v4
   tags: Content, Dictionary, internet, Technology, General Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-- name: Wordnik
-  x-api-slug: wordnik
-  description: wordnik-is-the-worlds-biggest-online-english-dictionary-by-number-of-words
+- name: Wordnik - Returns usage statistics for the API account.
+  x-api-slug: account-jsonapitokenstatus-get
+  description: Returns usage statistics for the api account..
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
   humanURL: http://wordnik.com
   baseURL: https://api.wordnik.com//v4
@@ -56,15 +52,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-- name: Wordnik
-  x-api-slug: wordnik
-  description: wordnik-is-the-worlds-biggest-online-english-dictionary-by-number-of-words
+- name: Wordnik - Returns usage statistics for the API account.
+  x-api-slug: account-jsonapitokenstatus-get
+  description: Returns usage statistics for the api account..
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
   humanURL: http://wordnik.com
   baseURL: https://api.wordnik.com//v4
@@ -74,378 +64,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
-- name: Wordnik
-  x-api-slug: wordnik
-  description: wordnik-is-the-worlds-biggest-online-english-dictionary-by-number-of-words
+- name: Wordnik - Authenticates a User
+  x-api-slug: account-jsonauthenticateusername-get
+  description: Authenticates a user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
   humanURL: http://wordnik.com
   baseURL: https://api.wordnik.com//v4
   tags: Content, Dictionary, internet, Technology, General Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonwordlists-get-openapi.md
-- name: Wordnik
-  x-api-slug: wordnik
-  description: wordnik-is-the-worlds-biggest-online-english-dictionary-by-number-of-words
+- name: Wordnik - Authenticates a User
+  x-api-slug: account-jsonauthenticateusername-get
+  description: Authenticates a user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
   humanURL: http://wordnik.com
   baseURL: https://api.wordnik.com//v4
   tags: Content, Dictionary, internet, Technology, General Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonwordlists-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-- name: Wordnik
-  x-api-slug: wordnik
-  description: wordnik-is-the-worlds-biggest-online-english-dictionary-by-number-of-words
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
-  humanURL: http://wordnik.com
-  baseURL: https://api.wordnik.com//v4
-  tags: Content, Dictionary, internet, Technology, General Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonwordlists-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-- name: Wordnik
-  x-api-slug: wordnik
-  description: wordnik-is-the-worlds-biggest-online-english-dictionary-by-number-of-words
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
-  humanURL: http://wordnik.com
-  baseURL: https://api.wordnik.com//v4
-  tags: Content, Dictionary, internet, Technology, General Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonwordlists-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-- name: Wordnik
-  x-api-slug: wordnik
-  description: wordnik-is-the-worlds-biggest-online-english-dictionary-by-number-of-words
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
-  humanURL: http://wordnik.com
-  baseURL: https://api.wordnik.com//v4
-  tags: Content, Dictionary, internet, Technology, General Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonwordlists-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-- name: Wordnik
-  x-api-slug: wordnik
-  description: wordnik-is-the-worlds-biggest-online-english-dictionary-by-number-of-words
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
-  humanURL: http://wordnik.com
-  baseURL: https://api.wordnik.com//v4
-  tags: Content, Dictionary, internet, Technology, General Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonwordlists-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-- name: Wordnik
-  x-api-slug: wordnik
-  description: wordnik-is-the-worlds-biggest-online-english-dictionary-by-number-of-words
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
-  humanURL: http://wordnik.com
-  baseURL: https://api.wordnik.com//v4
-  tags: Content, Dictionary, internet, Technology, General Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonwordlists-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-- name: Wordnik
-  x-api-slug: wordnik
-  description: wordnik-is-the-worlds-biggest-online-english-dictionary-by-number-of-words
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
-  humanURL: http://wordnik.com
-  baseURL: https://api.wordnik.com//v4
-  tags: Content, Dictionary, internet, Technology, General Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonwordlists-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
-- name: Wordnik
-  x-api-slug: wordnik
-  description: wordnik-is-the-worlds-biggest-online-english-dictionary-by-number-of-words
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
-  humanURL: http://wordnik.com
-  baseURL: https://api.wordnik.com//v4
-  tags: Content, Dictionary, internet, Technology, General Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonwordlists-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
-- name: Wordnik
-  x-api-slug: wordnik
-  description: wordnik-is-the-worlds-biggest-online-english-dictionary-by-number-of-words
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
-  humanURL: http://wordnik.com
-  baseURL: https://api.wordnik.com//v4
-  tags: Content, Dictionary, internet, Technology, General Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonwordlists-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonwordlists-get-openapi.md
-- name: Wordnik
-  x-api-slug: wordnik
-  description: wordnik-is-the-worlds-biggest-online-english-dictionary-by-number-of-words
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
-  humanURL: http://wordnik.com
-  baseURL: https://api.wordnik.com//v4
-  tags: Content, Dictionary, internet, Technology, General Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonwordlists-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonwordlists-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonwordlists-get-openapi.md
-- name: Wordnik
-  x-api-slug: wordnik
-  description: The Wordnik API lets you request definitions, example sentences, spelling
-    suggestions, related words like synonyms and antonyms, phrases containing a given
-    word, word autocompletion, random words, words of the day, and much more.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
-  humanURL: http://wordnik.com
-  baseURL: https://api.wordnik.com//v4
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://wikipedia.api.gallery.streamdata.io

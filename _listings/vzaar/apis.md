@@ -9,14 +9,16 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/5
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/vzaar/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Vzaar API
-  x-api-slug: vzaar-api
-  description: vzaar-is-an-online-video-hosting-service-with-fantastic-features-that-are-designed-for-business--deliver-to-mobile-or-the-web-straight-from-your-site-
+- name: VZaar API - Get Api Accounts Account
+  x-api-slug: apiaccountsaccount-format-get
+  description: 'nnThis API call returns the details and rights for each vzaar subscription
+    account type along with its relevant metadata. This will show the details of the
+    packages available here: http://vzaar.com/pricingnn'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
   humanURL: http://vzaar.com/
   baseURL: https://vzaar.com//
@@ -26,9 +28,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/vzaar/apiaccountsaccount-format-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/vzaar/apiaccountsaccount-format-get-openapi.md
-- name: Vzaar API
-  x-api-slug: vzaar-api
-  description: vzaar-is-an-online-video-hosting-service-with-fantastic-features-that-are-designed-for-business--deliver-to-mobile-or-the-web-straight-from-your-site-
+- name: VZaar API - Get Api Accounts Account
+  x-api-slug: apiaccountsaccount-format-get
+  description: 'nnThis API call returns the details and rights for each vzaar subscription
+    account type along with its relevant metadata. This will show the details of the
+    packages available here: http://vzaar.com/pricingnn'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
   humanURL: http://vzaar.com/
   baseURL: https://vzaar.com//
@@ -38,11 +42,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/vzaar/apiaccountsaccount-format-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/vzaar/apiaccountsaccount-format-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/vzaar/apiaccountsaccount-format-get-openapi.md
-- name: Vzaar API
-  x-api-slug: vzaar-api
-  description: vzaar-is-an-online-video-hosting-service-with-fantastic-features-that-are-designed-for-business--deliver-to-mobile-or-the-web-straight-from-your-site-
+- name: VZaar API - Get Api Accounts Account
+  x-api-slug: apiaccountsaccount-format-get
+  description: 'nnThis API call returns the details and rights for each vzaar subscription
+    account type along with its relevant metadata. This will show the details of the
+    packages available here: http://vzaar.com/pricingnn'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
   humanURL: http://vzaar.com/
   baseURL: https://vzaar.com//
@@ -52,13 +56,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/vzaar/apiaccountsaccount-format-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/vzaar/apiaccountsaccount-format-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/vzaar/apiaccountsaccount-format-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/vzaar/apiaccountsaccount-format-get-openapi.md
-- name: Vzaar API
-  x-api-slug: vzaar-api
-  description: vzaar-is-an-online-video-hosting-service-with-fantastic-features-that-are-designed-for-business--deliver-to-mobile-or-the-web-straight-from-your-site-
+- name: VZaar API - Get Api Accounts Account
+  x-api-slug: apiaccountsaccount-format-get
+  description: 'nnThis API call returns the details and rights for each vzaar subscription
+    account type along with its relevant metadata. This will show the details of the
+    packages available here: http://vzaar.com/pricingnn'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
   humanURL: http://vzaar.com/
   baseURL: https://vzaar.com//
@@ -68,23 +70,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/vzaar/apiaccountsaccount-format-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/vzaar/apiaccountsaccount-format-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/vzaar/apiaccountsaccount-format-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/vzaar/apiaccountsaccount-format-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/vzaar/apiaccountsaccount-format-get-openapi.md
-- name: Vzaar API
-  x-api-slug: vzaar-api
-  description: vzaar is anonline video hostingservice with fantasticfeaturesthat are
-    designed for business. Deliver tomobileor the web straight from your site.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
-  humanURL: http://vzaar.com/
-  baseURL: https://vzaar.com//
-  tags: Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/vzaar/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://vmware.api.gallery.streamdata.io
