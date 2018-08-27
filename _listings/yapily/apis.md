@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "7167103"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/yapily/apis.md
 specificationVersion: "0.14"
 apis:
@@ -109,6 +109,42 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/yapily/accountsaccountidtransactions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/yapily/accountsaccountidtransactions-get-openapi.md
+- name: Yapily API - Retrieves details of personal current accounts for an institution
+  x-api-slug: institutionsinstitutionidpersonalcurrentaccounts-get
+  description: Retrieves details of personal current accounts for an institution.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/yapily-logo.png
+  humanURL: https://www.yapily.com
+  baseURL: https://api.yapily.com:443//
+  tags: New, Postman, OpenAPI, Financial, Banking, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/yapily/institutionsinstitutionidpersonalcurrentaccounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/yapily/institutionsinstitutionidpersonalcurrentaccounts-get-openapi.md
+- name: Yapily API - Get account transactions
+  x-api-slug: accountsaccountidtransactions-get
+  description: Get account transactions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/yapily-logo.png
+  humanURL: https://www.yapily.com
+  baseURL: https://api.yapily.com:443//
+  tags: New, Postman, OpenAPI, Financial, Banking, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/yapily/accountsaccountidtransactions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/yapily/accountsaccountidtransactions-get-openapi.md
+- name: Yapily API - Get account
+  x-api-slug: accountsaccountid-get
+  description: Get account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/yapily-logo.png
+  humanURL: https://www.yapily.com
+  baseURL: https://api.yapily.com:443//
+  tags: New, Postman, OpenAPI, Financial, Banking, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/yapily/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/yapily/accountsaccountid-get-openapi.md
 - name: Yapily API - Retrieves details of personal current accounts for an institution
   x-api-slug: institutionsinstitutionidpersonalcurrentaccounts-get
   description: Retrieves details of personal current accounts for an institution.

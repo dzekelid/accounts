@@ -7,11 +7,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbo
 x-kinRank: "10"
 x-alexaRank: "89"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dropbox/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Dropbox Core API v1 - Retrieves information about the user's account.
+  x-api-slug: accountinfo-get
+  description: Retrieves information about the user's account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
+  baseURL: https://api.dropbox.com//1
+  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
+    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
+    API Service Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dropbox/accountinfo-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/dropbox/accountinfo-get-openapi.md
 - name: Dropbox Core API v1 - Retrieves information about the user's account.
   x-api-slug: accountinfo-get
   description: Retrieves information about the user's account.

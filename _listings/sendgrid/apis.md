@@ -7,11 +7,91 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: SendGrid - Get User Account
+  x-api-slug: useraccount-get
+  description: |-
+    **This endpoint allows you to retrieve your user account details.**
+
+    Your user's account information includes the user's account type and reputation.
+
+    Keeping your user profile up to date is important. This will help SendGrid to verify who you are as well as contact you should we need to.
+
+    For more information about your user profile:
+
+    * [SendGrid Account Settings](https://sendgrid.com/docs/User_Guide/Settings/account.html)
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/sendgrid/useraccount-get-openapi.md
+- name: SendGrid - Get User Account
+  x-api-slug: useraccount-get
+  description: |-
+    **This endpoint allows you to retrieve your user account details.**
+
+    Your user's account information includes the user's account type and reputation.
+
+    Keeping your user profile up to date is important. This will help SendGrid to verify who you are as well as contact you should we need to.
+
+    For more information about your user profile:
+
+    * [SendGrid Account Settings](https://sendgrid.com/docs/User_Guide/Settings/account.html)
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/sendgrid/useraccount-get-openapi.md
+- name: SendGrid - Get User Account
+  x-api-slug: useraccount-get
+  description: |-
+    **This endpoint allows you to retrieve your user account details.**
+
+    Your user's account information includes the user's account type and reputation.
+
+    Keeping your user profile up to date is important. This will help SendGrid to verify who you are as well as contact you should we need to.
+
+    For more information about your user profile:
+
+    * [SendGrid Account Settings](https://sendgrid.com/docs/User_Guide/Settings/account.html)
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/sendgrid/useraccount-get-openapi.md
+- name: SendGrid - Get User Account
+  x-api-slug: useraccount-get
+  description: |-
+    **This endpoint allows you to retrieve your user account details.**
+
+    Your user's account information includes the user's account type and reputation.
+
+    Keeping your user profile up to date is important. This will help SendGrid to verify who you are as well as contact you should we need to.
+
+    For more information about your user profile:
+
+    * [SendGrid Account Settings](https://sendgrid.com/docs/User_Guide/Settings/account.html)
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/sendgrid/useraccount-get-openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html

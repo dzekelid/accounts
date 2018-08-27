@@ -12,8 +12,8 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/apis.md
 specificationVersion: "0.14"
 apis:
@@ -41,6 +41,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccounts-get-openapi.md
+- name: Open Science Framework - Retrieve an addon account
+  x-api-slug: usersuser-idaddonsprovideraccountsaccount-id-get
+  description: |-
+    Retrieves the details of an addon account
+
+    #### Permissions
+
+    Addon accounts are visible only to the user that authorized the account.
+
+    ####Returns
+    Returns a JSON object with a `data` key containing the representation of the requested addon account, if the request was successful.
+
+    If the request is unsuccessful, an `errors` key containing information about the failure will be returned. Refer to the [list of error codes](#Introduction_error_codes) to understand why this request may have failed.
+  image: ""
+  humanURL: https://cos.io
+  baseURL: https://test-api.osf.io//v2
+  tags: Research, Science, API Provider, Profiles, General Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccountsaccount-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/open-science-framework/usersuser-idaddonsprovideraccountsaccount-id-get-openapi.md
 - name: Open Science Framework - Retrieve an addon account
   x-api-slug: usersuser-idaddonsprovideraccountsaccount-id-get
   description: |-

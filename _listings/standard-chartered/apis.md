@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "4658"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/standard-chartered/apis.md
 specificationVersion: "0.14"
 apis:
@@ -141,6 +141,34 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/standard-chartered/cibservices2bapiv1banksscbaccountsaccountidviewidtransactionrequesttypes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/standard-chartered/cibservices2bapiv1banksscbaccountsaccountidviewidtransactionrequesttypes-get-openapi.md
+- name: Standard Chartered - Finds all support transaction types for a given account
+  x-api-slug: cibservices2bapiv1banksscbaccountsaccountidviewidtransactionrequesttypes-get
+  description: The ???GetTransactionTypes??? API upon successful user authentication
+    and entitlement checks will return the supported transaction types for the specified
+    account
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
+  humanURL: https://developer.sc.com
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/standard-chartered/cibservices2bapiv1banksscbaccountsaccountidviewidtransactionrequesttypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/standard-chartered/cibservices2bapiv1banksscbaccountsaccountidviewidtransactionrequesttypes-get-openapi.md
+- name: Standard Chartered - Accounts
+  x-api-slug: cibservices2bapiv1banksscbaccountsaccountidviewidaccount-get
+  description: The ???GetAccountBalance??? API upon successful user authentication
+    and entitlement checks will return the various types of ???Account Balances???
+    applicable for the specified Account Number.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
+  humanURL: https://developer.sc.com
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/standard-chartered/cibservices2bapiv1banksscbaccountsaccountidviewidaccount-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/standard-chartered/cibservices2bapiv1banksscbaccountsaccountidviewidaccount-get-openapi.md
 x-common:
 - type: x-accessibility
   url: https://developer.sc.com/cib/#/accessibility

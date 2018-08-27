@@ -199,6 +199,53 @@ paths:
       tags:
       - Advertising
       - Account
+  /agency/{agencyId}/advertiser/{advertiserId}/engine/{engineAccountId}/conversion:
+    get:
+      summary: Get Conversions
+      description: Retrieves a list of conversions from a DoubleClick Search engine
+        account.
+      operationId: doubleclicksearch.conversion.get
+      x-api-path-slug: agencyagencyidadvertiseradvertiseridengineengineaccountidconversion-get
+      parameters:
+      - in: query
+        name: adGroupId
+        description: Numeric ID of the ad group
+      - in: query
+        name: adId
+        description: Numeric ID of the ad
+      - in: path
+        name: advertiserId
+        description: Numeric ID of the advertiser
+      - in: path
+        name: agencyId
+        description: Numeric ID of the agency
+      - in: query
+        name: campaignId
+        description: Numeric ID of the campaign
+      - in: query
+        name: criterionId
+        description: Numeric ID of the criterion
+      - in: query
+        name: endDate
+        description: Last date (inclusive) on which to retrieve conversions
+      - in: path
+        name: engineAccountId
+        description: Numeric ID of the engine account
+      - in: query
+        name: rowCount
+        description: The number of conversions to return per call
+      - in: query
+        name: startDate
+        description: First date (inclusive) on which to retrieve conversions
+      - in: query
+        name: startRow
+        description: The 0-based starting index for retrieving conversions results
+      responses:
+        200:
+          description: OK
+      tags:
+      - Advertising
+      - Conversion
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

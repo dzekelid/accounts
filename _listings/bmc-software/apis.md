@@ -7,11 +7,89 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-so
 x-kinRank: "8"
 x-alexaRank: "27308"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bmc-software/apis.md
 specificationVersion: "0.14"
 apis:
+- name: BMC Software Merged API - Account Resource
+  x-api-slug: account-get
+  description: Information about the authorized account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
+  humanURL: http://www.bmc.com
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bmc-software/account-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bmc-software/account-get-openapi.md
+- name: BMC Software Merged API - Get AWS Integration Status
+  x-api-slug: v1accountawsstatus-get
+  description: Gets AWS status
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
+  humanURL: http://www.bmc.com
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bmc-software/v1accountawsstatus-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bmc-software/v1accountawsstatus-get-openapi.md
+- name: BMC Software Merged API - Delete Account Mobile Device
+  x-api-slug: v1accountmobiledevicesaccountdeviceid-delete
+  description: Deletes a device from an account
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
+  humanURL: http://www.bmc.com
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bmc-software/v1accountmobiledevicesaccountdeviceid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bmc-software/v1accountmobiledevicesaccountdeviceid-delete-openapi.md
+- name: BMC Software Merged API - Get All Account Mobile Devices
+  x-api-slug: v1accountmobiledevices-get
+  description: Gets all of the devices for an account
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
+  humanURL: http://www.bmc.com
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bmc-software/v1accountmobiledevices-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bmc-software/v1accountmobiledevices-get-openapi.md
+- name: BMC Software Merged API - Get all source information
+  x-api-slug: v1accountsourceslastmodified-get
+  description: Gets all source (host + data stream) information
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
+  humanURL: http://www.bmc.com
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bmc-software/v1accountsourceslastmodified-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bmc-software/v1accountsourceslastmodified-get-openapi.md
+- name: BMC Software Merged API - Set source metadata
+  x-api-slug: v1accountsources-put
+  description: Sets one or more source metadata
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
+  humanURL: http://www.bmc.com
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bmc-software/v1accountsources-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/bmc-software/v1accountsources-put-openapi.md
 - name: BMC Software Merged API - Account Resource
   x-api-slug: account-get
   description: Information about the authorized account.

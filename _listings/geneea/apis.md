@@ -9,11 +9,25 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "11275166"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/geneea/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Geneea Natural Language Processing - Get Account
+  x-api-slug: account-get
+  description: Information about current user account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/geneea-logo.png
+  humanURL: https://www.geneea.com
+  baseURL: https://api.geneea.com//
+  tags: SaaS, Technology, API Provider, Machine Learning, Sentiment Analysis, Topic
+    Identification, Tags, Tags, Languages, Entities, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/geneea/account-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/geneea/account-get-openapi.md
 - name: Geneea Natural Language Processing - Get Account
   x-api-slug: account-get
   description: Information about current user account.

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Wordnik
 x-complete: 1
@@ -111,4 +110,3 @@ paths:
       - Account
       - Words
       - Lists
----

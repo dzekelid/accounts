@@ -871,6 +871,46 @@ paths:
       - Cash
       - Accountthe
       - Agent
+  /api/accountingsystem/setprimaryaccount:
+    post:
+      summary: Set Primary Bank Account for Accounting System
+      description: Set primary bank account for accounting system.
+      operationId: AccountingSystem_SetPrimarySystemBankAccountByid
+      x-api-path-slug: apiaccountingsystemsetprimaryaccount-post
+      parameters:
+      - in: query
+        name: id
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Set
+      - Primary
+      - Bank
+      - AccountAccounting
+      - System
+  /api/accountingsystem/taxstatus:
+    get:
+      summary: Get Tax Status of Accounting System
+      description: Get tax status of accounting system.
+      operationId: AccountingSystem_GetTaxStatus
+      x-api-path-slug: apiaccountingsystemtaxstatus-get
+      parameters:
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tax
+      - Status
+      - Of
+      - Accounting
+      - System
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

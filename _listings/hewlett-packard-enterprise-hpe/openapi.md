@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Hewlett Packard Enterprise (HPE)
 x-complete: 1
@@ -127,4 +126,3 @@ paths:
           description: OK
       tags:
       - Account
----

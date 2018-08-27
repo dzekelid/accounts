@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "3107"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hitbtc/apis.md
 specificationVersion: "0.14"
 apis:
@@ -98,6 +98,42 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hitbtc/accounttransactionsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hitbtc/accounttransactionsid-get-openapi.md
+- name: HitBTC API - Get Main Acccount Balance
+  x-api-slug: accountbalance-get
+  description: Get main acccount balance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png
+  humanURL: https://hitbtc.com
+  baseURL: https:////api/2
+  tags: Technology, Blockchain, Marketplace, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hitbtc/accountbalance-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hitbtc/accountbalance-get-openapi.md
+- name: HitBTC API - Get Account Transaction By Id
+  x-api-slug: accounttransactionsid-get
+  description: Get account transaction by id.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png
+  humanURL: https://hitbtc.com
+  baseURL: https:////api/2
+  tags: Technology, Blockchain, Marketplace, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hitbtc/accounttransactionsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hitbtc/accounttransactionsid-get-openapi.md
+- name: HitBTC API - Get Account Transactions
+  x-api-slug: accounttransactions-get
+  description: Get account transactions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png
+  humanURL: https://hitbtc.com
+  baseURL: https:////api/2
+  tags: Technology, Blockchain, Marketplace, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hitbtc/accounttransactions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hitbtc/accounttransactions-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://blog.hitbtc.com/feed/

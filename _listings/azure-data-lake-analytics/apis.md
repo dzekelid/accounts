@@ -17,11 +17,283 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: DataLakeAnalyticsJobManagementClient - Account List
+  x-api-slug: subscriptionssubscriptionidprovidersmicrosoft-datalakeanalyticsaccounts-get
+  description: Gets the first page of Data Lake Analytics accounts, if any, within
+    the current subscription. This includes a link to the next page, if any.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidprovidersmicrosoft-datalakeanalyticsaccounts-get-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account Get
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-get
+  description: Gets details of the specified Data Lake Analytics account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-get-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account Delete
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-delete
+  description: Begins the delete delete process for the Data Lake Analytics account
+    object specified by the account name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-delete-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account Create
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-put
+  description: Creates the specified Data Lake Analytics account. This supplies the
+    user with computation services for Data Lake Analytics workloads
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-put-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-patch
+  description: Updates the Data Lake Analytics account object specified by the accountName
+    with the contents of the account object.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-patch-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account List By Resource Group
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccounts-get
+  description: Gets the first page of Data Lake Analytics accounts, if any, within
+    a specific resource group. This includes a link to the next page, if any.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccounts-get-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account List
+  x-api-slug: subscriptionssubscriptionidprovidersmicrosoft-datalakeanalyticsaccounts-get
+  description: Gets the first page of Data Lake Analytics accounts, if any, within
+    the current subscription. This includes a link to the next page, if any.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidprovidersmicrosoft-datalakeanalyticsaccounts-get-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account List
+  x-api-slug: subscriptionssubscriptionidprovidersmicrosoft-datalakeanalyticsaccounts-get
+  description: Gets the first page of Data Lake Analytics accounts, if any, within
+    the current subscription. This includes a link to the next page, if any.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidprovidersmicrosoft-datalakeanalyticsaccounts-get-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account Get
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-get
+  description: Gets details of the specified Data Lake Analytics account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-get-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account Get
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-get
+  description: Gets details of the specified Data Lake Analytics account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-get-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account Delete
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-delete
+  description: Begins the delete delete process for the Data Lake Analytics account
+    object specified by the account name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-delete-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account Delete
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-delete
+  description: Begins the delete delete process for the Data Lake Analytics account
+    object specified by the account name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-delete-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account Create
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-put
+  description: Creates the specified Data Lake Analytics account. This supplies the
+    user with computation services for Data Lake Analytics workloads
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-put-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account Create
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-put
+  description: Creates the specified Data Lake Analytics account. This supplies the
+    user with computation services for Data Lake Analytics workloads
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-put-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-patch
+  description: Updates the Data Lake Analytics account object specified by the accountName
+    with the contents of the account object.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-patch-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-patch
+  description: Updates the Data Lake Analytics account object specified by the accountName
+    with the contents of the account object.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-patch-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account List By Resource Group
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccounts-get
+  description: Gets the first page of Data Lake Analytics accounts, if any, within
+    a specific resource group. This includes a link to the next page, if any.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccounts-get-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-patch
+  description: Updates the Data Lake Analytics account object specified by the accountName
+    with the contents of the account object.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-patch-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account Create
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-put
+  description: Creates the specified Data Lake Analytics account. This supplies the
+    user with computation services for Data Lake Analytics workloads
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-put-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account Delete
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-delete
+  description: Begins the delete delete process for the Data Lake Analytics account
+    object specified by the account name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-delete-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account Get
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-get
+  description: Gets details of the specified Data Lake Analytics account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccountsaccountname-get-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account List
+  x-api-slug: subscriptionssubscriptionidprovidersmicrosoft-datalakeanalyticsaccounts-get
+  description: Gets the first page of Data Lake Analytics accounts, if any, within
+    the current subscription. This includes a link to the next page, if any.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidprovidersmicrosoft-datalakeanalyticsaccounts-get-openapi.md
+- name: DataLakeAnalyticsJobManagementClient - Account List By Resource Group
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccounts-get
+  description: Gets the first page of Data Lake Analytics accounts, if any, within
+    a specific resource group. This includes a link to the next page, if any.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: :////
+  tags: Analysis, Microsoft, Data, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-data-lake-analytics/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakeanalyticsaccounts-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://azure.container.service.api.gallery.streamdata.io

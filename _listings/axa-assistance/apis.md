@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-
 x-kinRank: "8"
 x-alexaRank: "2107685"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/axa-assistance/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AXA Assistance - Resends the confirmation email to an identity account
+  x-api-slug: userv1identitiesregisterconfirmresend-post
+  description: Resends the confirmation email to an identity account
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
+  humanURL: https://www.axa-assistance.com
+  baseURL: https://sandbox.api.axa-assistance.com//
+  tags: Technology, internet, Insurance, API Provider, Profiles, Relative Data, General
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/axa-assistance/userv1identitiesregisterconfirmresend-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/axa-assistance/userv1identitiesregisterconfirmresend-post-openapi.md
 - name: AXA Assistance - Resends the confirmation email to an identity account
   x-api-slug: userv1identitiesregisterconfirmresend-post
   description: Resends the confirmation email to an identity account

@@ -17,11 +17,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-database-migration-service/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Database Migration Service API - Describe Account Attributes
+  x-api-slug: actiondescribeaccountattributes-get
+  description: Lists all of the AWS DMS attributes for a customer account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AWSDatabaseMigrationService.png
+  humanURL: https://aws.amazon.com/dms/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Databases, Migrations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-database-migration-service/actiondescribeaccountattributes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-database-migration-service/actiondescribeaccountattributes-get-openapi.md
 - name: AWS Database Migration Service API - Describe Account Attributes
   x-api-slug: actiondescribeaccountattributes-get
   description: Lists all of the AWS DMS attributes for a customer account.

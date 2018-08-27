@@ -7,11 +7,42 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/google-cloud-billing/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Google Cloud Billing - Get Billing Accounts
+  x-api-slug: v1billingaccounts-get
+  description: |-
+    Lists the billing accounts that the current authenticated user
+    [owns](https://support.google.com/cloud/answer/4430947).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Generic-GCP.png
+  humanURL: https://cloud.google.com/billing/docs/
+  baseURL: ://cloudbilling.googleapis.com//
+  tags: Google APIs, Monetization, Stack Network, Billing, API Service Provider, API
+    Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/google-cloud-billing/v1billingaccounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/google-cloud-billing/v1billingaccounts-get-openapi.md
+- name: Google Cloud Billing - Get Billing Account
+  x-api-slug: v1name-get
+  description: |-
+    Gets information about a billing account. The current authenticated user
+    must be an [owner of the billing
+    account](https://support.google.com/cloud/answer/4430947).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Generic-GCP.png
+  humanURL: https://cloud.google.com/billing/docs/
+  baseURL: ://cloudbilling.googleapis.com//
+  tags: Google APIs, Monetization, Stack Network, Billing, API Service Provider, API
+    Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/google-cloud-billing/v1name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/google-cloud-billing/v1name-get-openapi.md
 - name: Google Cloud Billing - Get Billing Accounts
   x-api-slug: v1billingaccounts-get
   description: |-

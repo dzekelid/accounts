@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/apis.md
 specificationVersion: "0.14"
 apis:
@@ -91,6 +91,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actiondeleteaccountalias-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actiondeleteaccountalias-get-openapi.md
+- name: AWS Identity and Access Management API - List Account Aliases
+  x-api-slug: actionlistaccountaliases-get
+  description: |-
+    Lists the account alias associated with the AWS account (Note: you can have only
+          one).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actionlistaccountaliases-get-openapi.md
+- name: AWS Identity and Access Management API - Delete Account Password Policy
+  x-api-slug: actiondeleteaccountpasswordpolicy-get
+  description: Deletes the password policy for the AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actiondeleteaccountpasswordpolicy-get-openapi.md
 - name: AWS Identity and Access Management API - Update Account Password Policy
   x-api-slug: actionupdateaccountpasswordpolicy-get
   description: Updates the password policy settings for the AWS account.
@@ -161,6 +187,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actiondeleteaccountalias-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actiondeleteaccountalias-get-openapi.md
+- name: AWS Identity and Access Management API - Delete Account Password Policy
+  x-api-slug: actiondeleteaccountpasswordpolicy-get
+  description: Deletes the password policy for the AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actiondeleteaccountpasswordpolicy-get-openapi.md
+- name: AWS Identity and Access Management API - Delete Account Password Policy
+  x-api-slug: actiondeleteaccountpasswordpolicy-get
+  description: Deletes the password policy for the AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actiondeleteaccountpasswordpolicy-get-openapi.md
 - name: AWS Identity and Access Management API - Get Account Authorization Details
   x-api-slug: actiongetaccountauthorizationdetails-get
   description: |-
@@ -253,6 +303,34 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actiongetaccountsummary-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actiongetaccountsummary-get-openapi.md
+- name: AWS Identity and Access Management API - List Account Aliases
+  x-api-slug: actionlistaccountaliases-get
+  description: |-
+    Lists the account alias associated with the AWS account (Note: you can have only
+          one).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actionlistaccountaliases-get-openapi.md
+- name: AWS Identity and Access Management API - List Account Aliases
+  x-api-slug: actionlistaccountaliases-get
+  description: |-
+    Lists the account alias associated with the AWS account (Note: you can have only
+          one).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actionlistaccountaliases-get-openapi.md
 - name: AWS Identity and Access Management API - Update Account Password Policy
   x-api-slug: actionupdateaccountpasswordpolicy-get
   description: Updates the password policy settings for the AWS account.
@@ -309,6 +387,46 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actiondeleteaccountalias-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actiondeleteaccountalias-get-openapi.md
+- name: AWS Identity and Access Management API - List Account Aliases
+  x-api-slug: actionlistaccountaliases-get
+  description: |-
+    Lists the account alias associated with the AWS account (Note: you can have only
+          one).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actionlistaccountaliases-get-openapi.md
+- name: AWS Identity and Access Management API - List Account Aliases
+  x-api-slug: actionlistaccountaliases-get
+  description: |-
+    Lists the account alias associated with the AWS account (Note: you can have only
+          one).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actionlistaccountaliases-get-openapi.md
+- name: AWS Identity and Access Management API - Delete Account Password Policy
+  x-api-slug: actiondeleteaccountpasswordpolicy-get
+  description: Deletes the password policy for the AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actiondeleteaccountpasswordpolicy-get-openapi.md
 - name: AWS Identity and Access Management API - Update Account Password Policy
   x-api-slug: actionupdateaccountpasswordpolicy-get
   description: Updates the password policy settings for the AWS account.
@@ -323,6 +441,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actionupdateaccountpasswordpolicy-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actionupdateaccountpasswordpolicy-get-openapi.md
+- name: AWS Identity and Access Management API - Delete Account Password Policy
+  x-api-slug: actiondeleteaccountpasswordpolicy-get
+  description: Deletes the password policy for the AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actiondeleteaccountpasswordpolicy-get-openapi.md
 - name: AWS Identity and Access Management API - Get Account Password Policy
   x-api-slug: actiongetaccountpasswordpolicy-get
   description: Retrieves the password policy for the AWS account.
@@ -337,6 +467,74 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actiongetaccountpasswordpolicy-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actiongetaccountpasswordpolicy-get-openapi.md
+- name: AWS Identity and Access Management API - Create Account Alias
+  x-api-slug: actioncreateaccountalias-get
+  description: Creates an alias for your AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actioncreateaccountalias-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actioncreateaccountalias-get-openapi.md
+- name: AWS Identity and Access Management API - Delete Account Alias
+  x-api-slug: actiondeleteaccountalias-get
+  description: Deletes the specified AWS account alias.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actiondeleteaccountalias-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actiondeleteaccountalias-get-openapi.md
+- name: AWS Identity and Access Management API - List Account Aliases
+  x-api-slug: actionlistaccountaliases-get
+  description: |-
+    Lists the account alias associated with the AWS account (Note: you can have only
+          one).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actionlistaccountaliases-get-openapi.md
+- name: AWS Identity and Access Management API - Delete Account Password Policy
+  x-api-slug: actiondeleteaccountpasswordpolicy-get
+  description: Deletes the password policy for the AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actiondeleteaccountpasswordpolicy-get-openapi.md
+- name: AWS Identity and Access Management API - Update Account Password Policy
+  x-api-slug: actionupdateaccountpasswordpolicy-get
+  description: Updates the password policy settings for the AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actionupdateaccountpasswordpolicy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-identity-and-access-management/actionupdateaccountpasswordpolicy-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.glacier.api.gallery.streamdata.io

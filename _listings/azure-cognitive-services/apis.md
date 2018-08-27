@@ -9,11 +9,103 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-cognitive-services/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: CognitiveServicesManagementClient - Accounts List By Resource Group
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccounts-get
+  description: Returns all the resources of a particular type belonging to a resource
+    group
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
+  humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
+  baseURL: ://management.azure.com//
+  tags: Cognitive, Machine Learning, Microsoft, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccounts-get-openapi.md
+- name: CognitiveServicesManagementClient - Accounts List
+  x-api-slug: subscriptionssubscriptionidprovidersmicrosoft-cognitiveservicesaccounts-get
+  description: Returns all the resources of a particular type belonging to a subscription.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
+  humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
+  baseURL: ://management.azure.com//
+  tags: Cognitive, Machine Learning, Microsoft, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-cognitive-services/subscriptionssubscriptionidprovidersmicrosoft-cognitiveservicesaccounts-get-openapi.md
+- name: CognitiveServicesManagementClient - Accounts List By Resource Group
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccounts-get
+  description: Returns all the resources of a particular type belonging to a resource
+    group
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
+  humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
+  baseURL: ://management.azure.com//
+  tags: Cognitive, Machine Learning, Microsoft, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccounts-get-openapi.md
+- name: CognitiveServicesManagementClient - Accounts List By Resource Group
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccounts-get
+  description: Returns all the resources of a particular type belonging to a resource
+    group
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
+  humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
+  baseURL: ://management.azure.com//
+  tags: Cognitive, Machine Learning, Microsoft, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccounts-get-openapi.md
+- name: CognitiveServicesManagementClient - Accounts List
+  x-api-slug: subscriptionssubscriptionidprovidersmicrosoft-cognitiveservicesaccounts-get
+  description: Returns all the resources of a particular type belonging to a subscription.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
+  humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
+  baseURL: ://management.azure.com//
+  tags: Cognitive, Machine Learning, Microsoft, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-cognitive-services/subscriptionssubscriptionidprovidersmicrosoft-cognitiveservicesaccounts-get-openapi.md
+- name: CognitiveServicesManagementClient - Accounts List
+  x-api-slug: subscriptionssubscriptionidprovidersmicrosoft-cognitiveservicesaccounts-get
+  description: Returns all the resources of a particular type belonging to a subscription.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
+  humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
+  baseURL: ://management.azure.com//
+  tags: Cognitive, Machine Learning, Microsoft, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-cognitive-services/subscriptionssubscriptionidprovidersmicrosoft-cognitiveservicesaccounts-get-openapi.md
+- name: CognitiveServicesManagementClient - Accounts List
+  x-api-slug: subscriptionssubscriptionidprovidersmicrosoft-cognitiveservicesaccounts-get
+  description: Returns all the resources of a particular type belonging to a subscription.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
+  humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
+  baseURL: ://management.azure.com//
+  tags: Cognitive, Machine Learning, Microsoft, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-cognitive-services/subscriptionssubscriptionidprovidersmicrosoft-cognitiveservicesaccounts-get-openapi.md
+- name: CognitiveServicesManagementClient - Accounts List By Resource Group
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccounts-get
+  description: Returns all the resources of a particular type belonging to a resource
+    group
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
+  humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
+  baseURL: ://management.azure.com//
+  tags: Cognitive, Machine Learning, Microsoft, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccounts-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://azure.cdn.api.gallery.streamdata.io

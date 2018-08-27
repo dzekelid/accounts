@@ -9,11 +9,25 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/5
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/vzaar/apis.md
 specificationVersion: "0.14"
 apis:
+- name: VZaar API - Get Api Accounts Account
+  x-api-slug: apiaccountsaccount-format-get
+  description: 'nnThis API call returns the details and rights for each vzaar subscription
+    account type along with its relevant metadata. This will show the details of the
+    packages available here: http://vzaar.com/pricingnn'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
+  humanURL: http://vzaar.com/
+  baseURL: https://vzaar.com//
+  tags: API United Kingdom, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/vzaar/apiaccountsaccount-format-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/vzaar/apiaccountsaccount-format-get-openapi.md
 - name: VZaar API - Get Api Accounts Account
   x-api-slug: apiaccountsaccount-format-get
   description: 'nnThis API call returns the details and rights for each vzaar subscription

@@ -13,11 +13,53 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-batch/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: BatchManagement - Gets the account keys for the specified Batch account.
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnamelistkeys-post
+  description: This operation applies only to Batch accounts created with a poolAllocationMode
+    of 'BatchService'. If the Batch account was created with a poolAllocationMode
+    of 'UserSubscription', clients cannot use access to keys to authenticate, and
+    must use Azure Active Directory instead. In this case, getting the keys will fail.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-batch-100x-scale.png
+  humanURL: https://azure.microsoft.com/en-us/services/batch/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Batch, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnamelistkeys-post-openapi.md
+- name: BatchManagement - Gets the account keys for the specified Batch account.
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnamelistkeys-post
+  description: This operation applies only to Batch accounts created with a poolAllocationMode
+    of 'BatchService'. If the Batch account was created with a poolAllocationMode
+    of 'UserSubscription', clients cannot use access to keys to authenticate, and
+    must use Azure Active Directory instead. In this case, getting the keys will fail.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-batch-100x-scale.png
+  humanURL: https://azure.microsoft.com/en-us/services/batch/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Batch, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnamelistkeys-post-openapi.md
+- name: BatchManagement - Gets the account keys for the specified Batch account.
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnamelistkeys-post
+  description: This operation applies only to Batch accounts created with a poolAllocationMode
+    of 'BatchService'. If the Batch account was created with a poolAllocationMode
+    of 'UserSubscription', clients cannot use access to keys to authenticate, and
+    must use Azure Active Directory instead. In this case, getting the keys will fail.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-batch-100x-scale.png
+  humanURL: https://azure.microsoft.com/en-us/services/batch/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Batch, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnamelistkeys-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://azure.automation.api.gallery.streamdata.io

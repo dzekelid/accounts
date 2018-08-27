@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordn
 x-kinRank: "8"
 x-alexaRank: "46540"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/apis.md
 specificationVersion: "0.14"
 apis:
@@ -40,6 +40,36 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
+- name: Wordnik - Authenticates a user
+  x-api-slug: account-jsonauthenticateusername-post
+  description: Authenticates a user.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
+  humanURL: http://wordnik.com
+  baseURL: https://api.wordnik.com//v4
+  tags: Content, Dictionary, internet, Technology, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
+- name: Wordnik - Returns the logged-in User
+  x-api-slug: account-jsonuser-get
+  description: Requires a valid auth_token to be set.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
+  humanURL: http://wordnik.com
+  baseURL: https://api.wordnik.com//v4
+  tags: Content, Dictionary, internet, Technology, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
+- name: Wordnik - Fetches WordList objects for the logged-in user.
+  x-api-slug: account-jsonwordlists-get
+  description: Fetches wordlist objects for the logged-in user..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
+  humanURL: http://wordnik.com
+  baseURL: https://api.wordnik.com//v4
+  tags: Content, Dictionary, internet, Technology, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonwordlists-get-openapi.md
 - name: Wordnik - Returns usage statistics for the API account.
   x-api-slug: account-jsonapitokenstatus-get
   description: Returns usage statistics for the api account..
@@ -88,6 +118,120 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
+- name: Wordnik - Authenticates a user
+  x-api-slug: account-jsonauthenticateusername-post
+  description: Authenticates a user.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
+  humanURL: http://wordnik.com
+  baseURL: https://api.wordnik.com//v4
+  tags: Content, Dictionary, internet, Technology, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
+- name: Wordnik - Authenticates a user
+  x-api-slug: account-jsonauthenticateusername-post
+  description: Authenticates a user.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
+  humanURL: http://wordnik.com
+  baseURL: https://api.wordnik.com//v4
+  tags: Content, Dictionary, internet, Technology, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
+- name: Wordnik - Returns the logged-in User
+  x-api-slug: account-jsonuser-get
+  description: Requires a valid auth_token to be set.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
+  humanURL: http://wordnik.com
+  baseURL: https://api.wordnik.com//v4
+  tags: Content, Dictionary, internet, Technology, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
+- name: Wordnik - Returns the logged-in User
+  x-api-slug: account-jsonuser-get
+  description: Requires a valid auth_token to be set.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
+  humanURL: http://wordnik.com
+  baseURL: https://api.wordnik.com//v4
+  tags: Content, Dictionary, internet, Technology, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
+- name: Wordnik - Fetches WordList objects for the logged-in user.
+  x-api-slug: account-jsonwordlists-get
+  description: Fetches wordlist objects for the logged-in user..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
+  humanURL: http://wordnik.com
+  baseURL: https://api.wordnik.com//v4
+  tags: Content, Dictionary, internet, Technology, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonwordlists-get-openapi.md
+- name: Wordnik - Fetches WordList objects for the logged-in user.
+  x-api-slug: account-jsonwordlists-get
+  description: Fetches wordlist objects for the logged-in user..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
+  humanURL: http://wordnik.com
+  baseURL: https://api.wordnik.com//v4
+  tags: Content, Dictionary, internet, Technology, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonwordlists-get-openapi.md
+- name: Wordnik - Fetches WordList objects for the logged-in user.
+  x-api-slug: account-jsonwordlists-get
+  description: Fetches wordlist objects for the logged-in user..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
+  humanURL: http://wordnik.com
+  baseURL: https://api.wordnik.com//v4
+  tags: Content, Dictionary, internet, Technology, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonwordlists-get-openapi.md
+- name: Wordnik - Returns the logged-in User
+  x-api-slug: account-jsonuser-get
+  description: Requires a valid auth_token to be set.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
+  humanURL: http://wordnik.com
+  baseURL: https://api.wordnik.com//v4
+  tags: Content, Dictionary, internet, Technology, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonuser-get-openapi.md
+- name: Wordnik - Authenticates a user
+  x-api-slug: account-jsonauthenticateusername-post
+  description: Authenticates a user.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
+  humanURL: http://wordnik.com
+  baseURL: https://api.wordnik.com//v4
+  tags: Content, Dictionary, internet, Technology, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-post-openapi.md
+- name: Wordnik - Authenticates a User
+  x-api-slug: account-jsonauthenticateusername-get
+  description: Authenticates a user.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
+  humanURL: http://wordnik.com
+  baseURL: https://api.wordnik.com//v4
+  tags: Content, Dictionary, internet, Technology, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonauthenticateusername-get-openapi.md
+- name: Wordnik - Returns usage statistics for the API account.
+  x-api-slug: account-jsonapitokenstatus-get
+  description: Returns usage statistics for the api account..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
+  humanURL: http://wordnik.com
+  baseURL: https://api.wordnik.com//v4
+  tags: Content, Dictionary, internet, Technology, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/wordnik/account-jsonapitokenstatus-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://wikipedia.api.gallery.streamdata.io

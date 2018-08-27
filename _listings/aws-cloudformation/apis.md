@@ -20,11 +20,26 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-cloudformation/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS CloudFormation API - Describe Account Limits
+  x-api-slug: actiondescribeaccountlimits-get
+  description: Retrieves your account's AWS CloudFormation limits, such as the maximum
+    number of stacks that you can create in your account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
+  humanURL: https://aws.amazon.com/cloudformation/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-cloudformation/actiondescribeaccountlimits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/aws-cloudformation/actiondescribeaccountlimits-get-openapi.md
 - name: AWS CloudFormation API - Describe Account Limits
   x-api-slug: actiondescribeaccountlimits-get
   description: Retrieves your account's AWS CloudFormation limits, such as the maximum

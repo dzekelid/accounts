@@ -6,14 +6,14 @@ info:
   title: Settings API Get Account Settings
   description: Returns all account-specific settings.
   version: 1.0.0
-host: api.pingdom.com
-basePath: /
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: api.pingdom.com
+basePath: /
 paths:
   ? |2-
 

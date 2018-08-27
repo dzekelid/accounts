@@ -273,6 +273,56 @@ paths:
       - Banks
       - Account
       - Statements
+  /accounts/{AccountId}/statements/{StatementId}:
+    get:
+      summary: Get Statement
+      description: Get Statement related to an account
+      operationId: GetAccountStatement
+      x-api-path-slug: accountsaccountidstatementsstatementid-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Banking
+      - Banks
+      - Statement
+  /accounts/{AccountId}/statements/{StatementId}/file:
+    get:
+      summary: Get Statement File
+      description: Get Statement File related to an account
+      operationId: GetAccountStatementFile
+      x-api-path-slug: accountsaccountidstatementsstatementidfile-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Banking
+      - Banks
+      - Statement
+      - File
+  /accounts/{AccountId}/statements/{StatementId}/transactions:
+    get:
+      summary: Get Statement Transactions
+      description: Get Statement Transactions related to an account
+      operationId: GetAccountStatementTransactions
+      x-api-path-slug: accountsaccountidstatementsstatementidtransactions-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Banking
+      - Banks
+      - Statement
+      - Transactions
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

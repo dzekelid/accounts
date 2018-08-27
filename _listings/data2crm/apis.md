@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,6 +25,66 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/account-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/account-get-openapi.md
+- name: Data2CRM.API - POST for Account
+  x-api-slug: account-post
+  description: Add account into the system
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png
+  humanURL: http://data2crm.com
+  baseURL: https://api.data2crm.com:80//v1
+  tags: CRM, API Provider, Migrations, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/account-post-openapi.md
+- name: Data2CRM.API - COUNT for Account
+  x-api-slug: accountcount-get
+  description: Count all accounts from the system
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png
+  humanURL: http://data2crm.com
+  baseURL: https://api.data2crm.com:80//v1
+  tags: CRM, API Provider, Migrations, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/accountcount-get-openapi.md
+- name: Data2CRM.API - DESCRIBE for Account
+  x-api-slug: accountdescribe-get
+  description: Returns describe for accounts
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png
+  humanURL: http://data2crm.com
+  baseURL: https://api.data2crm.com:80//v1
+  tags: CRM, API Provider, Migrations, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/accountdescribe-get-openapi.md
+- name: Data2CRM.API - DELETE for Account
+  x-api-slug: accountaccount-id-delete
+  description: Delete account information
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png
+  humanURL: http://data2crm.com
+  baseURL: https://api.data2crm.com:80//v1
+  tags: CRM, API Provider, Migrations, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/accountaccount-id-delete-openapi.md
+- name: Data2CRM.API - GET for Account
+  x-api-slug: accountaccount-id-get
+  description: Return account information
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png
+  humanURL: http://data2crm.com
+  baseURL: https://api.data2crm.com:80//v1
+  tags: CRM, API Provider, Migrations, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/accountaccount-id-get-openapi.md
+- name: Data2CRM.API - PUT for Account
+  x-api-slug: accountaccount-id-put
+  description: Update account information
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png
+  humanURL: http://data2crm.com
+  baseURL: https://api.data2crm.com:80//v1
+  tags: CRM, API Provider, Migrations, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/accountaccount-id-put-openapi.md
 - name: Data2CRM.API - GET for Account
   x-api-slug: account-get
   description: Returns all accounts from the system
@@ -49,6 +109,126 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/account-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/account-get-openapi.md
+- name: Data2CRM.API - POST for Account
+  x-api-slug: account-post
+  description: Add account into the system
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png
+  humanURL: http://data2crm.com
+  baseURL: https://api.data2crm.com:80//v1
+  tags: CRM, API Provider, Migrations, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/account-post-openapi.md
+- name: Data2CRM.API - POST for Account
+  x-api-slug: account-post
+  description: Add account into the system
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png
+  humanURL: http://data2crm.com
+  baseURL: https://api.data2crm.com:80//v1
+  tags: CRM, API Provider, Migrations, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/account-post-openapi.md
+- name: Data2CRM.API - COUNT for Account
+  x-api-slug: accountcount-get
+  description: Count all accounts from the system
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png
+  humanURL: http://data2crm.com
+  baseURL: https://api.data2crm.com:80//v1
+  tags: CRM, API Provider, Migrations, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/accountcount-get-openapi.md
+- name: Data2CRM.API - COUNT for Account
+  x-api-slug: accountcount-get
+  description: Count all accounts from the system
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png
+  humanURL: http://data2crm.com
+  baseURL: https://api.data2crm.com:80//v1
+  tags: CRM, API Provider, Migrations, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/accountcount-get-openapi.md
+- name: Data2CRM.API - DESCRIBE for Account
+  x-api-slug: accountdescribe-get
+  description: Returns describe for accounts
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png
+  humanURL: http://data2crm.com
+  baseURL: https://api.data2crm.com:80//v1
+  tags: CRM, API Provider, Migrations, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/accountdescribe-get-openapi.md
+- name: Data2CRM.API - DESCRIBE for Account
+  x-api-slug: accountdescribe-get
+  description: Returns describe for accounts
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png
+  humanURL: http://data2crm.com
+  baseURL: https://api.data2crm.com:80//v1
+  tags: CRM, API Provider, Migrations, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/accountdescribe-get-openapi.md
+- name: Data2CRM.API - DELETE for Account
+  x-api-slug: accountaccount-id-delete
+  description: Delete account information
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png
+  humanURL: http://data2crm.com
+  baseURL: https://api.data2crm.com:80//v1
+  tags: CRM, API Provider, Migrations, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/accountaccount-id-delete-openapi.md
+- name: Data2CRM.API - DELETE for Account
+  x-api-slug: accountaccount-id-delete
+  description: Delete account information
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png
+  humanURL: http://data2crm.com
+  baseURL: https://api.data2crm.com:80//v1
+  tags: CRM, API Provider, Migrations, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/accountaccount-id-delete-openapi.md
+- name: Data2CRM.API - GET for Account
+  x-api-slug: accountaccount-id-get
+  description: Return account information
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png
+  humanURL: http://data2crm.com
+  baseURL: https://api.data2crm.com:80//v1
+  tags: CRM, API Provider, Migrations, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/accountaccount-id-get-openapi.md
+- name: Data2CRM.API - GET for Account
+  x-api-slug: accountaccount-id-get
+  description: Return account information
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png
+  humanURL: http://data2crm.com
+  baseURL: https://api.data2crm.com:80//v1
+  tags: CRM, API Provider, Migrations, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/accountaccount-id-get-openapi.md
+- name: Data2CRM.API - PUT for Account
+  x-api-slug: accountaccount-id-put
+  description: Update account information
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png
+  humanURL: http://data2crm.com
+  baseURL: https://api.data2crm.com:80//v1
+  tags: CRM, API Provider, Migrations, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/accountaccount-id-put-openapi.md
+- name: Data2CRM.API - PUT for Account
+  x-api-slug: accountaccount-id-put
+  description: Update account information
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png
+  humanURL: http://data2crm.com
+  baseURL: https://api.data2crm.com:80//v1
+  tags: CRM, API Provider, Migrations, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/data2crm/accountaccount-id-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://data.gov.au.api.gallery.streamdata.io

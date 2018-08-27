@@ -10,8 +10,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hewlett-packard-enterprise-hpe/apis.md
 specificationVersion: "0.14"
 apis:
@@ -28,6 +28,97 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hewlett-packard-enterprise-hpe/billingaccounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hewlett-packard-enterprise-hpe/billingaccounts-get-openapi.md
+- name: HPE OneSphere API - Post Billing Accounts
+  x-api-slug: billingaccounts-post
+  description: Creates a new billing account. It requires the **administrator** role.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
+  humanURL: http://HPE.com
+  baseURL: https://deic02-hpe.hpeonesphere.com//rest
+  tags: Enterprise, Cloud, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hewlett-packard-enterprise-hpe/billingaccounts-post-openapi.md
+- name: HPE OneSphere API - Delete Billing Accounts
+  x-api-slug: billingaccountsid-delete
+  description: Deletes a billing account. It requires the **administrator** role.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
+  humanURL: http://HPE.com
+  baseURL: https://deic02-hpe.hpeonesphere.com//rest
+  tags: Enterprise, Cloud, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hewlett-packard-enterprise-hpe/billingaccountsid-delete-openapi.md
+- name: HPE OneSphere API - Get Billing Accounts
+  x-api-slug: billingaccountsid-get
+  description: Returns a billing account based on its id. It requires the **administrator**
+    or **project creator** global role. Credentials are not included.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
+  humanURL: http://HPE.com
+  baseURL: https://deic02-hpe.hpeonesphere.com//rest
+  tags: Enterprise, Cloud, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hewlett-packard-enterprise-hpe/billingaccountsid-get-openapi.md
+- name: HPE OneSphere API - Patch Billing Accounts
+  x-api-slug: billingaccountsid-patch
+  description: Updates a billing account. It requires the **administrator** role.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
+  humanURL: http://HPE.com
+  baseURL: https://deic02-hpe.hpeonesphere.com//rest
+  tags: Enterprise, Cloud, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hewlett-packard-enterprise-hpe/billingaccountsid-patch-openapi.md
+- name: HPE OneSphere API - Get Account
+  x-api-slug: account-get
+  description: Returns the global account information. **Not implemented**
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
+  humanURL: http://HPE.com
+  baseURL: https://deic02-hpe.hpeonesphere.com//rest
+  tags: Enterprise, Cloud, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hewlett-packard-enterprise-hpe/account-get-openapi.md
+- name: HPE OneSphere API - Get Account
+  x-api-slug: account-get
+  description: Returns the global account information. **Not implemented**
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
+  humanURL: http://HPE.com
+  baseURL: https://deic02-hpe.hpeonesphere.com//rest
+  tags: Enterprise, Cloud, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hewlett-packard-enterprise-hpe/account-get-openapi.md
+- name: HPE OneSphere API - Get Account
+  x-api-slug: account-get
+  description: Returns the global account information. **Not implemented**
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
+  humanURL: http://HPE.com
+  baseURL: https://deic02-hpe.hpeonesphere.com//rest
+  tags: Enterprise, Cloud, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hewlett-packard-enterprise-hpe/account-get-openapi.md
+- name: HPE OneSphere API - Get Account
+  x-api-slug: account-get
+  description: Returns the global account information. **Not implemented**
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
+  humanURL: http://HPE.com
+  baseURL: https://deic02-hpe.hpeonesphere.com//rest
+  tags: Enterprise, Cloud, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hewlett-packard-enterprise-hpe/account-get-openapi.md
+- name: HPE OneSphere API - Get Account
+  x-api-slug: account-get
+  description: Returns the global account information. **Not implemented**
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
+  humanURL: http://HPE.com
+  baseURL: https://deic02-hpe.hpeonesphere.com//rest
+  tags: Enterprise, Cloud, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/hewlett-packard-enterprise-hpe/account-get-openapi.md
 x-common:
 - type: x-developer
   url: https://developer.hpe.com/

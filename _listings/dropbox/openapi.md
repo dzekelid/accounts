@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Dropbox
 x-complete: 1
@@ -18,4 +17,23 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /account/info:
+    get:
+      summary: Retrieves information about the user's account.
+      description: Retrieves information about the user's account.
+      operationId: retrieves-information-about-the-users-account
+      x-api-path-slug: accountinfo-get
+      parameters:
+      - in: query
+        name: locale
+        description: Use to specify language settings for user error messages and
+          other language specific text
+      responses:
+        200:
+          description: OK
+      tags:
+      - Storage
+      - Documents
+      - Account
+      - Info

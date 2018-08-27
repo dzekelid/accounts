@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1638-123co
 x-kinRank: "7"
 x-alexaRank: "24419"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/123formbuilder/apis.md
 specificationVersion: "0.14"
 apis:
@@ -97,6 +97,62 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/123formbuilder/accountsuser-id-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/123formbuilder/accountsuser-id-put-openapi.md
+- name: ' - Update account'
+  x-api-slug: accountsuser-id-put
+  description: Updates an account. You can only update the users that you have created
+    using your account token.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1638-123contactform.jpg
+  humanURL: http://www.123formbuilder.com
+  baseURL: https://api.123contactform.com//v2
+  tags: Forms, Surveys, SaaS, Technology, internet, API Provider, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/123formbuilder/accountsuser-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/123formbuilder/accountsuser-id-put-openapi.md
+- name: ' - Update account'
+  x-api-slug: accountsuser-id-put
+  description: Updates an account. You can only update the users that you have created
+    using your account token.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1638-123contactform.jpg
+  humanURL: http://www.123formbuilder.com
+  baseURL: https://api.123contactform.com//v2
+  tags: Forms, Surveys, SaaS, Technology, internet, API Provider, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/123formbuilder/accountsuser-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/123formbuilder/accountsuser-id-put-openapi.md
+- name: ' - Create new account'
+  x-api-slug: accounts-post
+  description: Creates a new account (standalone user). This is available only upon
+    request.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1638-123contactform.jpg
+  humanURL: http://www.123formbuilder.com
+  baseURL: https://api.123contactform.com//v2
+  tags: Forms, Surveys, SaaS, Technology, internet, API Provider, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/123formbuilder/accounts-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/123formbuilder/accounts-post-openapi.md
+- name: ' - Create new account'
+  x-api-slug: accounts-post
+  description: Creates a new account (standalone user). This is available only upon
+    request.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1638-123contactform.jpg
+  humanURL: http://www.123formbuilder.com
+  baseURL: https://api.123contactform.com//v2
+  tags: Forms, Surveys, SaaS, Technology, internet, API Provider, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/123formbuilder/accounts-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/123formbuilder/accounts-post-openapi.md
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/legacy/123contactform.json

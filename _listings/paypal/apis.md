@@ -7,11 +7,173 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal
 x-kinRank: "10"
 x-alexaRank: "71"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/paypal/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: PayPal (Sandbox) - Add Bank Account
+  x-api-slug: adaptiveaccountsaddbankaccount-post
+  description: The AddBankAccount API operation lets your application set up bank
+    accounts as funding sources for PayPal accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
+  humanURL: https://paypal.com
+  baseURL: https://svcs.sandbox.paypal.com//
+  tags: International, Payments, Billing, Merchant, Indie EdTech Data Jam, Getting
+    Started Example, Stack Network, Stack, Hypermedia API, Financial Services, Technology,
+    Mobile, SaaS, internet, Invoices, Payments, Payments, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/paypal/adaptiveaccountsaddbankaccount-post-openapi.md
+- name: PayPal (Sandbox) - Add Payment Card
+  x-api-slug: adaptiveaccountsaddpaymentcard-post
+  description: The AddPaymentCard API operation lets your application set up credit
+    cards as funding sources for PayPal accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
+  humanURL: https://paypal.com
+  baseURL: https://svcs.sandbox.paypal.com//
+  tags: International, Payments, Billing, Merchant, Indie EdTech Data Jam, Getting
+    Started Example, Stack Network, Stack, Hypermedia API, Financial Services, Technology,
+    Mobile, SaaS, internet, Invoices, Payments, Payments, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/paypal/adaptiveaccountsaddpaymentcard-post-openapi.md
+- name: PayPal (Sandbox) - Create Account
+  x-api-slug: adaptiveaccountscreateaccount-post
+  description: The CreateAccount API operation enables you to create a PayPal account
+    on behalf of a third party.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
+  humanURL: https://paypal.com
+  baseURL: https://svcs.sandbox.paypal.com//
+  tags: International, Payments, Billing, Merchant, Indie EdTech Data Jam, Getting
+    Started Example, Stack Network, Stack, Hypermedia API, Financial Services, Technology,
+    Mobile, SaaS, internet, Invoices, Payments, Payments, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/paypal/adaptiveaccountscreateaccount-post-openapi.md
+- name: PayPal (Sandbox) - Get User Agreement
+  x-api-slug: adaptiveaccountsgetuseragreement-post
+  description: The GetUserAgreement API operation lets you retrieve the user agreement
+    for the customer to approve the new PayPal account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
+  humanURL: https://paypal.com
+  baseURL: https://svcs.sandbox.paypal.com//
+  tags: International, Payments, Billing, Merchant, Indie EdTech Data Jam, Getting
+    Started Example, Stack Network, Stack, Hypermedia API, Financial Services, Technology,
+    Mobile, SaaS, internet, Invoices, Payments, Payments, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/paypal/adaptiveaccountsgetuseragreement-post-openapi.md
+- name: PayPal (Sandbox) - Get Verified Status
+  x-api-slug: adaptiveaccountsgetverifiedstatus-post
+  description: The GetVerifiedStatus API operation lets you check if a PayPal account
+    status is verified. A PayPal account gains verified status under a variety of
+    circumstances, such as when an account is linked to a verified funding source.
+    Verified status serves to indicate a trust relationship. For more information
+    about account verified status, refer to PayPal.com.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
+  humanURL: https://paypal.com
+  baseURL: https://svcs.sandbox.paypal.com//
+  tags: International, Payments, Billing, Merchant, Indie EdTech Data Jam, Getting
+    Started Example, Stack Network, Stack, Hypermedia API, Financial Services, Technology,
+    Mobile, SaaS, internet, Invoices, Payments, Payments, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/paypal/adaptiveaccountsgetverifiedstatus-post-openapi.md
+- name: PayPal (Sandbox) - Set Funding Source Confirmed
+  x-api-slug: adaptiveaccountssetfundingsourceconfirmed-post
+  description: The SetFundingSourceConfirmed API operation lets your application set
+    up bank accounts as funding sources for PayPal accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
+  humanURL: https://paypal.com
+  baseURL: https://svcs.sandbox.paypal.com//
+  tags: International, Payments, Billing, Merchant, Indie EdTech Data Jam, Getting
+    Started Example, Stack Network, Stack, Hypermedia API, Financial Services, Technology,
+    Mobile, SaaS, internet, Invoices, Payments, Payments, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/paypal/adaptiveaccountssetfundingsourceconfirmed-post-openapi.md
+- name: PayPal (Sandbox) - Add Bank Account
+  x-api-slug: adaptiveaccountsaddbankaccount-post
+  description: The AddBankAccount API operation lets your application set up bank
+    accounts as funding sources for PayPal accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
+  humanURL: https://paypal.com
+  baseURL: https://svcs.sandbox.paypal.com//
+  tags: International, Payments, Billing, Merchant, Indie EdTech Data Jam, Getting
+    Started Example, Stack Network, Stack, Hypermedia API, Financial Services, Technology,
+    Mobile, SaaS, internet, Invoices, Payments, Payments, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/paypal/adaptiveaccountsaddbankaccount-post-openapi.md
+- name: PayPal (Sandbox) - Add Payment Card
+  x-api-slug: adaptiveaccountsaddpaymentcard-post
+  description: The AddPaymentCard API operation lets your application set up credit
+    cards as funding sources for PayPal accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
+  humanURL: https://paypal.com
+  baseURL: https://svcs.sandbox.paypal.com//
+  tags: International, Payments, Billing, Merchant, Indie EdTech Data Jam, Getting
+    Started Example, Stack Network, Stack, Hypermedia API, Financial Services, Technology,
+    Mobile, SaaS, internet, Invoices, Payments, Payments, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/paypal/adaptiveaccountsaddpaymentcard-post-openapi.md
+- name: PayPal (Sandbox) - Create Account
+  x-api-slug: adaptiveaccountscreateaccount-post
+  description: The CreateAccount API operation enables you to create a PayPal account
+    on behalf of a third party.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
+  humanURL: https://paypal.com
+  baseURL: https://svcs.sandbox.paypal.com//
+  tags: International, Payments, Billing, Merchant, Indie EdTech Data Jam, Getting
+    Started Example, Stack Network, Stack, Hypermedia API, Financial Services, Technology,
+    Mobile, SaaS, internet, Invoices, Payments, Payments, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/paypal/adaptiveaccountscreateaccount-post-openapi.md
+- name: PayPal (Sandbox) - Get User Agreement
+  x-api-slug: adaptiveaccountsgetuseragreement-post
+  description: The GetUserAgreement API operation lets you retrieve the user agreement
+    for the customer to approve the new PayPal account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
+  humanURL: https://paypal.com
+  baseURL: https://svcs.sandbox.paypal.com//
+  tags: International, Payments, Billing, Merchant, Indie EdTech Data Jam, Getting
+    Started Example, Stack Network, Stack, Hypermedia API, Financial Services, Technology,
+    Mobile, SaaS, internet, Invoices, Payments, Payments, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/paypal/adaptiveaccountsgetuseragreement-post-openapi.md
+- name: PayPal (Sandbox) - Get Verified Status
+  x-api-slug: adaptiveaccountsgetverifiedstatus-post
+  description: The GetVerifiedStatus API operation lets you check if a PayPal account
+    status is verified. A PayPal account gains verified status under a variety of
+    circumstances, such as when an account is linked to a verified funding source.
+    Verified status serves to indicate a trust relationship. For more information
+    about account verified status, refer to PayPal.com.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
+  humanURL: https://paypal.com
+  baseURL: https://svcs.sandbox.paypal.com//
+  tags: International, Payments, Billing, Merchant, Indie EdTech Data Jam, Getting
+    Started Example, Stack Network, Stack, Hypermedia API, Financial Services, Technology,
+    Mobile, SaaS, internet, Invoices, Payments, Payments, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/paypal/adaptiveaccountsgetverifiedstatus-post-openapi.md
+- name: PayPal (Sandbox) - Set Funding Source Confirmed
+  x-api-slug: adaptiveaccountssetfundingsourceconfirmed-post
+  description: The SetFundingSourceConfirmed API operation lets your application set
+    up bank accounts as funding sources for PayPal accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
+  humanURL: https://paypal.com
+  baseURL: https://svcs.sandbox.paypal.com//
+  tags: International, Payments, Billing, Merchant, Indie EdTech Data Jam, Getting
+    Started Example, Stack Network, Stack, Hypermedia API, Financial Services, Technology,
+    Mobile, SaaS, internet, Invoices, Payments, Payments, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/paypal/adaptiveaccountssetfundingsourceconfirmed-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://paylocity.api.gallery.streamdata.io

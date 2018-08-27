@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quov
 x-kinRank: "7"
 x-alexaRank: "391003"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/apis.md
 specificationVersion: "0.14"
 apis:
@@ -149,6 +149,72 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-get-openapi.md
+- name: Quovo API v3 - Update a manual account
+  x-api-slug: manual-accountsmanual-account-id-put
+  description: Modifies a Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-put-openapi.md
+- name: Quovo API v3 - Delete a manual account
+  x-api-slug: manual-accountsmanual-account-id-delete
+  description: Deletes a Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-delete-openapi.md
+- name: Quovo API v3 - Create a manual account
+  x-api-slug: usersuser-idmanual-accounts-post
+  description: Creates a Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/usersuser-idmanual-accounts-post-openapi.md
+- name: Quovo API v3 - Get auth for an account
+  x-api-slug: accountsaccount-idauth-get
+  description: Retrieves all authentication information associated with an account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-idauth-get-openapi.md
+- name: Quovo API v3 - Get a single account
+  x-api-slug: accountsaccount-id-get
+  description: Provides information on a single account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-id-get-openapi.md
+- name: Quovo API v3 - Update an account
+  x-api-slug: accountsaccount-id-put
+  description: Modifies an existing account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-id-put-openapi.md
 - name: Quovo API v3 - Get a single manual account
   x-api-slug: manual-accountsmanual-account-id-get
   description: Returns a single Manual Account.
@@ -175,6 +241,138 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-get-openapi.md
+- name: Quovo API v3 - Update a manual account
+  x-api-slug: manual-accountsmanual-account-id-put
+  description: Modifies a Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-put-openapi.md
+- name: Quovo API v3 - Update a manual account
+  x-api-slug: manual-accountsmanual-account-id-put
+  description: Modifies a Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-put-openapi.md
+- name: Quovo API v3 - Delete a manual account
+  x-api-slug: manual-accountsmanual-account-id-delete
+  description: Deletes a Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-delete-openapi.md
+- name: Quovo API v3 - Delete a manual account
+  x-api-slug: manual-accountsmanual-account-id-delete
+  description: Deletes a Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-delete-openapi.md
+- name: Quovo API v3 - Create a manual account
+  x-api-slug: usersuser-idmanual-accounts-post
+  description: Creates a Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/usersuser-idmanual-accounts-post-openapi.md
+- name: Quovo API v3 - Create a manual account
+  x-api-slug: usersuser-idmanual-accounts-post
+  description: Creates a Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/usersuser-idmanual-accounts-post-openapi.md
+- name: Quovo API v3 - Get auth for an account
+  x-api-slug: accountsaccount-idauth-get
+  description: Retrieves all authentication information associated with an account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-idauth-get-openapi.md
+- name: Quovo API v3 - Get auth for an account
+  x-api-slug: accountsaccount-idauth-get
+  description: Retrieves all authentication information associated with an account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-idauth-get-openapi.md
+- name: Quovo API v3 - Get a single account
+  x-api-slug: accountsaccount-id-get
+  description: Provides information on a single account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-id-get-openapi.md
+- name: Quovo API v3 - Get a single account
+  x-api-slug: accountsaccount-id-get
+  description: Provides information on a single account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-id-get-openapi.md
+- name: Quovo API v3 - Update an account
+  x-api-slug: accountsaccount-id-put
+  description: Modifies an existing account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-id-put-openapi.md
+- name: Quovo API v3 - Update an account
+  x-api-slug: accountsaccount-id-put
+  description: Modifies an existing account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-id-put-openapi.md
 - name: Quovo API v3 - Get all accounts
   x-api-slug: accounts-get
   description: Fetches all Accounts accross all Users.
@@ -214,6 +412,232 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-idextras-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-idextras-get-openapi.md
+- name: Quovo API v3 - Update an account
+  x-api-slug: accountsaccount-id-put
+  description: Modifies an existing account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-id-put-openapi.md
+- name: Quovo API v3 - Update an account
+  x-api-slug: accountsaccount-id-put
+  description: Modifies an existing account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-id-put-openapi.md
+- name: Quovo API v3 - Update an account
+  x-api-slug: accountsaccount-id-put
+  description: Modifies an existing account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-id-put-openapi.md
+- name: Quovo API v3 - Get a single account
+  x-api-slug: accountsaccount-id-get
+  description: Provides information on a single account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-id-get-openapi.md
+- name: Quovo API v3 - Get a single account
+  x-api-slug: accountsaccount-id-get
+  description: Provides information on a single account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-id-get-openapi.md
+- name: Quovo API v3 - Get a single account
+  x-api-slug: accountsaccount-id-get
+  description: Provides information on a single account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-id-get-openapi.md
+- name: Quovo API v3 - Get auth for an account
+  x-api-slug: accountsaccount-idauth-get
+  description: Retrieves all authentication information associated with an account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-idauth-get-openapi.md
+- name: Quovo API v3 - Get auth for an account
+  x-api-slug: accountsaccount-idauth-get
+  description: Retrieves all authentication information associated with an account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-idauth-get-openapi.md
+- name: Quovo API v3 - Get auth for an account
+  x-api-slug: accountsaccount-idauth-get
+  description: Retrieves all authentication information associated with an account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/accountsaccount-idauth-get-openapi.md
+- name: Quovo API v3 - Create a manual account
+  x-api-slug: usersuser-idmanual-accounts-post
+  description: Creates a Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/usersuser-idmanual-accounts-post-openapi.md
+- name: Quovo API v3 - Create a manual account
+  x-api-slug: usersuser-idmanual-accounts-post
+  description: Creates a Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/usersuser-idmanual-accounts-post-openapi.md
+- name: Quovo API v3 - Create a manual account
+  x-api-slug: usersuser-idmanual-accounts-post
+  description: Creates a Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/usersuser-idmanual-accounts-post-openapi.md
+- name: Quovo API v3 - Delete a manual account
+  x-api-slug: manual-accountsmanual-account-id-delete
+  description: Deletes a Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-delete-openapi.md
+- name: Quovo API v3 - Delete a manual account
+  x-api-slug: manual-accountsmanual-account-id-delete
+  description: Deletes a Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-delete-openapi.md
+- name: Quovo API v3 - Delete a manual account
+  x-api-slug: manual-accountsmanual-account-id-delete
+  description: Deletes a Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-delete-openapi.md
+- name: Quovo API v3 - Update a manual account
+  x-api-slug: manual-accountsmanual-account-id-put
+  description: Modifies a Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-put-openapi.md
+- name: Quovo API v3 - Update a manual account
+  x-api-slug: manual-accountsmanual-account-id-put
+  description: Modifies a Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-put-openapi.md
+- name: Quovo API v3 - Get a single manual account
+  x-api-slug: manual-accountsmanual-account-id-get
+  description: Returns a single Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-get-openapi.md
+- name: Quovo API v3 - Get a single manual account
+  x-api-slug: manual-accountsmanual-account-id-get
+  description: Returns a single Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-get-openapi.md
+- name: Quovo API v3 - Get a single manual account
+  x-api-slug: manual-accountsmanual-account-id-get
+  description: Returns a single Manual Account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/quovo/manual-accountsmanual-account-id-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.quovo.com/fintech-blog/feed/

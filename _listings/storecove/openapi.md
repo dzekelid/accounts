@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Storecove
 x-complete: 1
@@ -224,4 +223,3 @@ paths:
       - Shop
       - Account
       - Requests
----

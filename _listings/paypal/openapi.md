@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: PayPal
 x-complete: 1
@@ -100,4 +99,3 @@ paths:
       - Payments
       - Verified
       - Status
----

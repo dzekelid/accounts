@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotome
 x-kinRank: "7"
 x-alexaRank: "7422"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/apis.md
 specificationVersion: "0.14"
 apis:
@@ -57,6 +57,38 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeyorganizers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeyorganizers-get-openapi.md
+- name: 'Go To Training - DEPRECATED: Get Organizers'
+  x-api-slug: accountsaccountkeyorganizers-get
+  description: 'DEPRECATED: Please use the Admin API call ''Get all users'' instead.
+    For details see https://developer.citrixonline.com/get-all-users.'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
+  humanURL: https://citrixonline.com
+  baseURL: https://api.citrixonline.com//G2T/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeyorganizers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeyorganizers-get-openapi.md
+- name: Go To Webinar - Get all webinars for an account
+  x-api-slug: accountsaccountkeywebinars-get
+  description: Retrieves the list of webinars for an account within a given date range.
+    __*Page*__ and __*size*__ parameters are optional. Default __*page*__ is 0 and
+    default __*size*__ is 20. For technical reasons, this call cannot be executed
+    from this documentation. Please use the curl command to execute it.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
+  humanURL: https://citrixonline.com
+  baseURL: https://api.citrixonline.com//G2W/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeywebinars-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/gotomeeting/accountsaccountkeywebinars-get-openapi.md
 - name: Go To Webinar - Get all webinars for an account
   x-api-slug: accountsaccountkeywebinars-get
   description: Retrieves the list of webinars for an account within a given date range.

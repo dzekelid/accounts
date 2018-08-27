@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Accounts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-documentdb/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,6 +26,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountname-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountname-get-openapi.md
+- name: DocumentDB - Database Accounts Patch
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountname-patch
+  description: Patches the properties of an existing Azure DocumentDB database account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-document-db-03-replicate.png
+  humanURL: https://azure.microsoft.com/en-us/services/documentdb/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Documents, Stack Network, API Service Provider, API Provider, Databases,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountname-patch-openapi.md
+- name: DocumentDB - Database Accounts Create Or Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountname-put
+  description: Creates or updates an Azure DocumentDB database account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-document-db-03-replicate.png
+  humanURL: https://azure.microsoft.com/en-us/services/documentdb/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Documents, Stack Network, API Service Provider, API Provider, Databases,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountname-put-openapi.md
 - name: DocumentDB - Database Accounts Delete
   x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountname-delete
   description: Deletes an existing Azure DocumentDB database account.
@@ -39,6 +61,20 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountname-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountname-delete-openapi.md
+- name: DocumentDB - Database Accounts Failover Priority Change
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamefailoverprioritychange-post
+  description: Changes the failover priority for the Azure DocumentDB database account.
+    A failover priority of 0 indicates a write region. The maximum value for a failover
+    priority = (total number of regions - 1). Failover priority values must be unique
+    for each of the regions in which the database account exists.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-document-db-03-replicate.png
+  humanURL: https://azure.microsoft.com/en-us/services/documentdb/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Documents, Stack Network, API Service Provider, API Provider, Databases,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamefailoverprioritychange-post-openapi.md
 - name: DocumentDB - Database Accounts List
   x-api-slug: subscriptionssubscriptionidprovidersmicrosoft-documentdbdatabaseaccounts-get
   description: Lists all the Azure DocumentDB database accounts available under the
@@ -108,6 +144,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamereadonlykeys-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamereadonlykeys-get-openapi.md
+- name: DocumentDB - Database Accounts Regenerate Key
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnameregeneratekey-post
+  description: Regenerates an access key for the specified Azure DocumentDB database
+    account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-document-db-03-replicate.png
+  humanURL: https://azure.microsoft.com/en-us/services/documentdb/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Documents, Stack Network, API Service Provider, API Provider, Databases,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accounts/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnameregeneratekey-post-openapi.md
 - name: DocumentDB - Database Accounts Check Name Exists
   x-api-slug: providersmicrosoft-documentdbdatabaseaccountnamesaccountname-head
   description: Checks that the Azure DocumentDB account name already exists. A valid
